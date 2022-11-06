@@ -1,5 +1,7 @@
 import Head from "next/head";
 import React from "react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 export default function Layout({ title, children }) {
   return (
@@ -12,14 +14,10 @@ export default function Layout({ title, children }) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0"
         />
       </Head>
-      <div>
-        <header>
-          <h2>Header</h2>
-        </header>
-        <main>{children}</main>
-        <footer>
-          <h2>Footer</h2>
-        </footer>
+      <div className="layout-container">
+        <Navbar/>
+        <main className="layout-content">{children}</main>
+        <Footer/>
       </div>
     </>
   );

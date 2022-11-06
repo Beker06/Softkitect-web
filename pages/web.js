@@ -5,7 +5,7 @@ const web = () => {
   return (
     <>
       <Layout title="Web Design">
-
+        
       </Layout>
     </>
   )

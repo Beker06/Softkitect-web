@@ -24,3 +24,17 @@ a {
     background: black;
   }
 } */
+
+
+.layout-container{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.layout-content{
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
