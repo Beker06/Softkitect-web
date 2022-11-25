@@ -5,7 +5,7 @@ const it = () => {
   return (
     <>
       <Layout title="IT Outsourcing">
-        
+        <h1>it teamworks</h1>
       </Layout>
     </>
   )
