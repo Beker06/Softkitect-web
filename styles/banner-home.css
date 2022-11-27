@@ -1,0 +1,67 @@
+.home-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-image: url('../public/img/wave-banner.jpg');
+}
+.banner-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 908px;
+    margin-bottom: 107px;
+}
+.banner-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: auto;
+    margin-left: 77px;
+}
+.banner-text1{
+    font-size: 139px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-text2{
+    font-size: 155px;
+    text-align: left;
+    margin-left: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.banner-text3{
+    font-size: 139px;
+    text-align: left;
+    color: #FCD900;
+    text-transform: uppercase;
+}
+.banner-text4{
+    font-size: 32px;
+    text-align: left;
+    color: #fff;
+}
+.banner-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 569px;
+    margin: auto;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+.button-banner{
+    display: flex;
+    width: 231px;
+    height: 71px;
+    background-color: #000;
+    font-size: 24px;
+    color: #FDDB03;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}

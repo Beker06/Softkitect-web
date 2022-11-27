@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link href="/" onClick={() => setNavActive(!navActive)} className={router.pathname == "/" ? "active" : "inactive"}>
             HOME
           </Link>
-          <Link href="/" onClick={() => setNavActive(!navActive)} className={ router.pathname == "/" ? "active" : "inactive" }>
+          <Link href="/" >
             SERVICES
           </Link>
           <Link href="/about" onClick={() => setNavActive(!navActive)} className={router.pathname == "/about" ? "active" : "inactive"}>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link href="/contact" onClick={() => setNavActive(!navActive)} className={router.pathname == "/contact" ? "active" : "inactive"}>
             CONTACT US
           </Link>
-          <Link href="/" onClick={() => setNavActive(!navActive)} className={router.pathname == "/" ? "active" : "inactive"}>
+          <Link href="/">
             GET STARTED
           </Link>
         </div>
