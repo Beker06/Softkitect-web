@@ -5,6 +5,8 @@
     height: auto;
     object-fit: contain;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-image: url('../public/img/wave-banner.jpg');
 }
 .banner-row{

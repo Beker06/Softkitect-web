@@ -1,0 +1,25 @@
+.advantages-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    padding: 74px 107px;
+}.advantages-card{
+    display: flex;
+    max-width: 409px;
+    height: auto;
+    flex-direction: column;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.advantages-card-title{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.advantages-card-text{
+    font-size: 24px;
+}
