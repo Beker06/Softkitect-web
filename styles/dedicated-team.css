@@ -1,0 +1,44 @@
+.dedicated-team{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding: 30px 84px;
+}
+.dedicated-team-text{
+    max-width: 1763px;
+    height: auto;
+    color: #fff;
+    font-size: 82px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.dedicated-team-text label{
+    color: #F5C742;
+}
+.dt-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 45px 66px;
+    background-color: #F5C742;
+    color: #000000;
+}
+.dt-info-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 1752px;
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 38px;
+    justify-content: space-between;
+}
+.dt-info-row b{
+    font-weight: 900;
+}
+.dt-info-col{
+    max-width: 809px;
+}

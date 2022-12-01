@@ -1,0 +1,58 @@
+.end-home-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/img/surfers.jpg');
+}
+.end-home-banner-row{
+    display: flex;
+    max-width: 1548px;
+    flex-direction: column;
+    margin-top: 769px;
+    margin-left: 85px;
+    margin-bottom: 40px;
+}
+.end-home-banner-text1{
+    font-size: 148px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+    text-align: left;
+    line-height: 120px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.end-home-banner-text1 label{
+    color: #F5C742;
+}
+.end-home-banner-text-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.end-home-banner-text2{
+    max-width: 1180px;
+    font-size: 32px;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    line-height: 34px;
+    color: #fff;
+}
+.button-banner{
+    display: flex;
+    width: 231px;
+    height: 71px;
+    background-color: #000;
+    font-size: 24px;
+    color: #FDDB03;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}

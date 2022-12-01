@@ -9,27 +9,27 @@
     background-attachment: fixed;
     background-image: url('../public/img/wave-banner.jpg');
 }
-.banner-row{
+.home-banner-row{
     display: flex;
     width: 100%;
     flex-direction: row;
     margin-top: 908px;
     margin-bottom: 107px;
 }
-.banner-text-container{
+.home-banner-text-container{
     display: flex;
     flex-direction: column;
     max-width: 1000px;
     height: auto;
     margin-left: 77px;
 }
-.banner-text1{
+.home-banner-text1{
     font-size: 139px;
     text-align: left;
     color: #fff;
     text-transform: uppercase;
 }
-.banner-text2{
+.home-banner-text2{
     font-size: 155px;
     text-align: left;
     margin-left: 25px;
@@ -37,18 +37,18 @@
     text-transform: uppercase;
     margin-left: 30px;
 }
-.banner-text3{
+.home-banner-text3{
     font-size: 139px;
     text-align: left;
     color: #FCD900;
     text-transform: uppercase;
 }
-.banner-text4{
+.home-banner-text4{
     font-size: 32px;
     text-align: left;
     color: #fff;
 }
-.banner-buttons{
+.home-banner-buttons{
     display: flex;
     flex-direction: row;
     width: 569px;
@@ -61,9 +61,18 @@
     width: 231px;
     height: 71px;
     background-color: #000;
+    font-family: Proxima Nova;
     font-size: 24px;
+    font-weight: 100;
+    line-height: 29px;
     color: #FDDB03;
     border: none;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button-banner:hover{
+    color: #000;
+    background-color: #FDDB03;
 }
