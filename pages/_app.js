@@ -7,6 +7,9 @@ import '../styles/what-you-get.css'
 import '../styles/advantages-home.css'
 import '../styles/dedicated-team.css'
 import '../styles/end-banner-home.css'
+import '../styles/banner-about.css'
+import '../styles/nearshore.css'
+import '../styles/software-support.css'
 import '../styles/footer.css'
 
 function MyApp({ Component, pageProps }) {

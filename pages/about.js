@@ -1,11 +1,14 @@
 import React from 'react'
+import BannerAbout from '../Components/AboutUs/BannerAbout'
+import SoftwareSupport from '../Components/AboutUs/SoftwareSupport'
 import Layout from '../Components/Layout'
 
 const about = () => {
   return (
     <>
       <Layout title="About us">
-        <h1>about</h1>
+        <BannerAbout/>
+        <SoftwareSupport/>
       </Layout>
     </>
   )

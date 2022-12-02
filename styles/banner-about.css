@@ -1,0 +1,79 @@
+.about-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../public/img/shutterstock2.jpg');
+}
+.about-banner-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 749px;
+    margin-bottom: 107px;
+}
+.about-banner-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1097px;
+    height: auto;
+    margin-left: 77px;
+    font-weight: 900;
+}
+.about-banner-text1{
+    font-size: 102px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+}
+.about-banner-text2{
+    font-size: 155px;
+    text-align: left;
+    margin-top: -25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.about-banner-text3{
+    font-size: 102px;
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 5px;
+    color: #FCD900;
+    text-transform: uppercase;
+}
+.about-banner-text4{
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+.about-banner-text4 label{
+    color: #FCD900;
+}
+.softkitec-team{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #F5C742;
+}
+.softkitec-team-text{
+    max-width: 1657px;
+    height: auto;
+    font-size: 26px;
+    font-family: Proxima Nova;
+    font-weight: 900;
+    line-height: 38px;
+    margin: 27px 108px
+}
+.softkitec-team-photo{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
