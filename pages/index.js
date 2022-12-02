@@ -5,6 +5,7 @@ import WhoWeAre from "../Components/Home/WhoWeAre";
 import WhatYouGet from "../Components/Home/WhatYouGet";
 import DedicatedTeam from "../Components/Home/DedicatedTeam";
 import EndBannerHome from "../Components/Home/EndBannerHome";
+import AdvantagesHome from "../Components/Home/AdvantagesHome"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <BannerHome />
         <WhoWeAre />
         <WhatYouGet />
+        <AdvantagesHome />
         <DedicatedTeam/>
         <EndBannerHome/>
       </Layout>

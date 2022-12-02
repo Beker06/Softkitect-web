@@ -2,8 +2,6 @@ import Image from 'next/image';
 import React from 'react'
 import WeAddress from "../../public/img/shutterstock1.jpg";
 
-import AdvantagesHome from "../Home/AdvantagesHome";
-
 const WhatYouGet = () => {
   return (
     <>
@@ -15,7 +13,7 @@ const WhatYouGet = () => {
               We address your software development project in a personalized way.
               We will tailor solutions to your business’ needs, as well as
               integrate it into your ongoing project. Plus, we will guide you
-              through the entire development lifecycle.<br/> <br/>You can request our
+              through the entire development lifecycle.<br/><br/>You can request our
               services at any stage of the project: analysis, design, development,
               testing, implementation or support. At <label>Sofkitect</label>, custom software
               development means that you are in charge of your project; and we
@@ -31,7 +29,6 @@ const WhatYouGet = () => {
               <button className="button-banner">Contact us</button>
             </div>
           </div>
-          <AdvantagesHome />
     </>
   )
 }
