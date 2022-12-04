@@ -13,31 +13,37 @@ const Navbar = () => {
   return (
     <header>
       <nav className='navbar-container'>
-        <div className={`${navActive ? 'desplegado' : ''} navLinksContainer`}>
-          <div className='logo-container'>
+        <ul className={`${navActive ? 'desplegado' : ''} navLinksContainer`}>
+          <li className='logo-container'>
             <Link href="/">
               <Image src={LogoHorizontal} alt="softkitec-logo"/>
             </Link>
-          </div>
-          <Link href="/" onClick={() => setNavActive(!navActive)} className={router.pathname == "/" ? "active" : "inactive"}>
+          </li>
+          <li><Link href="/" onClick={() => setNavActive(!navActive)} className={router.pathname == "/" ? "active" : "inactive"}>
             HOME
-          </Link>
-          <Link href="/" >
-            SERVICES
-          </Link>
-          <Link href="/about" onClick={() => setNavActive(!navActive)} className={router.pathname == "/about" ? "active" : "inactive"}>
+          </Link></li>
+          <li className='si'><Link href="/">SERVICES</Link>
+            <ul className='menu-services'>
+              <li><Link href="/about">CUSTOM SOFTWARE DEVELOPMENT SERVICES</Link></li>
+              <li><Link href="/">MOBILE APP DEVELOPMENT</Link></li>
+              <li><Link href="/">IT CONSULTING</Link></li>
+              <li><Link href="#">QA AND TESTING SERVICES</Link></li>
+              <li><Link href="#">WEB DEVELOPMENT</Link></li>
+            </ul>
+          </li>
+          <li><Link href="/about" onClick={() => setNavActive(!navActive)} className={router.pathname == "/about" ? "active" : "inactive"}>
             ABOUT US
-          </Link>
-          <Link href="/it" onClick={() => setNavActive(!navActive)} className={router.pathname == "/it" ? "active" : "inactive"}>
+          </Link></li>
+          <li><Link href="/it" onClick={() => setNavActive(!navActive)} className={router.pathname == "/it" ? "active" : "inactive"}>
             IT TEAMWORKS
-          </Link>
-          <Link href="/contact" onClick={() => setNavActive(!navActive)} className={router.pathname == "/contact" ? "active" : "inactive"}>
+          </Link></li>
+          <li><Link href="/contact" onClick={() => setNavActive(!navActive)} className={router.pathname == "/contact" ? "active" : "inactive"}>
             CONTACT US
-          </Link>
-          <Link href="/">
+          </Link></li>
+          <li><Link href="/">
             GET STARTED
-          </Link>
-        </div>
+          </Link></li>
+        </ul>
       </nav>
     </header>
   )

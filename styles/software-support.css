@@ -1,8 +1,86 @@
+.software-support-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    background-color: #000000;
+    padding-top: 157px;
+    padding-bottom: 157px;
+    padding-inline-end: 200px;
+    
+}
+.software-support-row{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 148px;
+}
+.software-support-title{
+    display: flex;
+    flex-direction: row;
+    width: 1649px;
+    height: auto;
+    font-family: Proxima Nova;
+    font-weight: 900;
+    font-size: 148px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.software-support-title label{
+    color: #F5C742;
+}
+.software-support-text{
+    display: flex;
+    max-width: 622px;
+    height: auto;
+    color: #ffffff;
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -0.65px;
+    line-height: 38px;
+}
+.software-support-laptop{
+    display: flex;
+    flex-direction: row;
+    width: 962px;
+    min-width: 500px;
+    height: auto;
+    margin-top: 246px;
+    align-items: center;
+}
+.software-support-laptop img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.get-visually{
+    max-width: 1285px;
+    height: auto;
+    margin: 56px auto;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+}
 .software-grid{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: auto;
     background-color: #F5C742;
 }
 .image-grid{
-    
+    display: flex;
+    width: 1629px;
+    margin: auto;
+}
+.image-grid img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
 }

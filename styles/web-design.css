@@ -1,0 +1,23 @@
+.appointment{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: #F5C742;
+    background-color: #000000;
+    padding: 0px 10px;
+}
+.appointment-text{
+    max-width: 680px;
+    height: auto;
+    margin: 58px auto;
+    font-family: Proxima Nova;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+.devguy1-photo{
+    display: flex;
+    width: 100%;
+    height: auto;
+}

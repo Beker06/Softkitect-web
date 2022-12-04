@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import SoftkitecTeam from "../../public/img/shutterstock1.jpg"
+import SoftkitecTeam from "../../public/img/shutterstock12.jpg"
 
 const BannerAbout = () => {
     return (
