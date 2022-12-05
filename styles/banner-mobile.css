@@ -1,0 +1,40 @@
+.mobile-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../public/img/shutterstock5.jpg');
+}
+.mobile-banner-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 749px;
+    margin-bottom: 107px;
+}
+.mobile-banner-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1097px;
+    height: auto;
+    margin-left: 77px;
+    font-weight: 900;
+}
+.about-banner-text1{
+    font-size: 102px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+}
+.about-banner-text2{
+    font-size: 155px;
+    text-align: left;
+    margin-top: -25px;
+    color: #fff;
+    text-transform: uppercase;
+}

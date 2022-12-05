@@ -1,7 +1,7 @@
 import React from 'react'
-import BannerAbout from '../Components/AboutUs/BannerAbout'
-import Nearshore from '../Components/AboutUs/Nearshore'
-import SoftwareSupport from '../Components/AboutUs/SoftwareSupport'
+import BannerAbout from '../Components/CustomSoftware/BannerAbout'
+import Nearshore from '../Components/CustomSoftware/Nearshore'
+import SoftwareSupport from '../Components/CustomSoftware/SoftwareSupport'
 import Layout from '../Components/Layout'
 
 const customSoftwareDeveloment = () => {

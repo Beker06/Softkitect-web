@@ -10,6 +10,7 @@ import '../styles/end-banner-home.css'
 import '../styles/banner-about.css'
 import '../styles/nearshore.css'
 import '../styles/software-support.css'
+import '../styles/banner-mobile.css'
 import '../styles/web-design.css'
 import '../styles/footer.css'
 
