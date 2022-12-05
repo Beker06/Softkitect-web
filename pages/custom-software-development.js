@@ -4,10 +4,10 @@ import Nearshore from '../Components/AboutUs/Nearshore'
 import SoftwareSupport from '../Components/AboutUs/SoftwareSupport'
 import Layout from '../Components/Layout'
 
-const about = () => {
+const customSoftwareDeveloment = () => {
   return (
     <>
-      <Layout title="About us">
+      <Layout title="Custom Software Development">
         <BannerAbout/>
         <Nearshore/>
         <SoftwareSupport/>
@@ -16,4 +16,4 @@ const about = () => {
   )
 }
 
-export default about
+export default customSoftwareDeveloment

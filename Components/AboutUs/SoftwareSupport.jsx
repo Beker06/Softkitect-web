@@ -6,7 +6,7 @@ import Laptop from "../../public/img/laptop.png"
 const SoftwareSupport = () => {
   return (
     <>
-      <div className='software-support-container'>
+      <div id='software-support' className='software-support-container'>
         <div className='software-support-row'>
           <div className='software-support-title'>
             <div><label>SOFTWARE</label> SUPPORT</div>

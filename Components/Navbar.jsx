@@ -14,33 +14,35 @@ const Navbar = () => {
     <header>
       <nav className='navbar-container'>
         <ul className={`${navActive ? 'desplegado' : ''} navLinksContainer`}>
-          <li className='logo-container'>
+          <div className='logo-container'>
             <Link href="/">
               <Image src={LogoHorizontal} alt="softkitec-logo"/>
             </Link>
-          </li>
-          <li><Link href="/" onClick={() => setNavActive(!navActive)} className={router.pathname == "/" ? "active" : "inactive"}>
+          </div>
+          <li><Link href="/" >
             HOME
           </Link></li>
-          <li className='si'><Link href="/">SERVICES</Link>
-            <ul className='menu-services'>
-              <li><Link href="/about">CUSTOM SOFTWARE DEVELOPMENT SERVICES</Link></li>
-              <li><Link href="/">MOBILE APP DEVELOPMENT</Link></li>
+          <li>
+            <Link href="">SERVICES</Link>
+            <ul className='submenu-services'>
+              <li><Link href="/custom-software-development">CUSTOM SOFTWARE DEVELOPMENT SERVICES</Link></li>
+              <li><Link href="/mobile-app">MOBILE APP DEVELOPMENT</Link></li>
               <li><Link href="/">IT CONSULTING</Link></li>
-              <li><Link href="#">QA AND TESTING SERVICES</Link></li>
-              <li><Link href="#">WEB DEVELOPMENT</Link></li>
+              <li><Link href="/">QA AND TESTING SERVICES</Link></li>
+              <li><Link href="custom-software-development#software-support">SOFTWARE SUPPORT</Link></li>
+              <li><Link href="/">WEB DEVELOPMENT</Link></li>
             </ul>
           </li>
-          <li><Link href="/about" onClick={() => setNavActive(!navActive)} className={router.pathname == "/about" ? "active" : "inactive"}>
+          <li><Link href="/#about-us" >
             ABOUT US
           </Link></li>
-          <li><Link href="/it" onClick={() => setNavActive(!navActive)} className={router.pathname == "/it" ? "active" : "inactive"}>
+          <li><Link href="/" >
             IT TEAMWORKS
           </Link></li>
-          <li><Link href="/contact" onClick={() => setNavActive(!navActive)} className={router.pathname == "/contact" ? "active" : "inactive"}>
+          <li><Link href="/" >
             CONTACT US
           </Link></li>
-          <li><Link href="/">
+          <li><Link href="/" className='get-started-button'>
             GET STARTED
           </Link></li>
         </ul>

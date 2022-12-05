@@ -3,7 +3,7 @@ import React from 'react'
 const WhoWeAre = () => {
   return (
     <>
-        <div className="who-we-are">
+        <div id="about-us" className="who-we-are">
           <div className="wwa-photo"></div>
           <div className="wwa-info">
             <div className="wwa-title">WHO WE ARE</div>
