@@ -24,17 +24,43 @@
     margin-left: 77px;
     font-weight: 900;
 }
-.about-banner-text1{
-    font-size: 102px;
-    text-align: left;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 0;
+.customers-needs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
 }
-.about-banner-text2{
-    font-size: 155px;
-    text-align: left;
-    margin-top: -25px;
-    color: #fff;
-    text-transform: uppercase;
+.needs-col-photos{
+    max-width: 650px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 122px;
+    
+}
+.needs-col-photos img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 87px;
+}
+.needs-col-text{
+    max-width: 710px;
+    height: auto;
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    margin-top: 188px;
+}
+.needs-col-text label{
+    color: #F5C742;
+}
+.designteam-photo{
+    display: flex;
+    width: 100%;
+    height: auto;
 }
