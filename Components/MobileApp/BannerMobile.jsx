@@ -15,10 +15,11 @@ const BannerMobile = () => {
                     </div>
                 </div>
             </div>
-            <div className='some-benefits' style={{backgroundColor: "#F5C742"}}>
-                <div className='some-benefits-text'>
-                    Some Benefits of Hiring Remote Software
-                    Developers in Baja
+            <div className='some-benefits'>
+                <div className='some-benefits-text' style={{fontSize: "36px"}}>
+                    [ Get a visually stunning & functionally 
+                    effective mobile app for Android, iOS or 
+                    Windows. ]
                 </div>
             </div>
             <div className='customers-needs'>

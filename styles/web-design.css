@@ -1,3 +1,48 @@
+.web-design-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #F5C742;
+    color: #000000;
+}
+.web-col{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 53px 0px 96px 177px;
+}
+.web-title{
+    max-width: 870px;
+    height: auto;
+    display: flex;
+    font-family: Proxima Nova;
+    font-size: 145px;
+    font-weight: 900;
+    color: #000000;
+}
+.web-text{
+    max-width: 685px;
+    height: auto;
+    font-family: Proxima Nova;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 33px;
+}
+.web-photo-container{
+    display: block;
+    width: 1276px;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.developer-photo{
+    width: 181%;
+    height: auto;
+    margin-left: -180px;
+}
 .appointment{
     display: flex;
     width: 100%;
