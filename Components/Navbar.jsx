@@ -30,7 +30,7 @@ const Navbar = () => {
               <li><Link href="/">IT CONSULTING</Link></li>
               <li><Link href="/">QA AND TESTING SERVICES</Link></li>
               <li><Link href="custom-software-development#software-support">SOFTWARE SUPPORT</Link></li>
-              <li><Link href="/">WEB DEVELOPMENT</Link></li>
+              <li><Link href="/mobile-app#web-development">WEB DEVELOPMENT</Link></li>
             </ul>
           </li>
           <li><Link href="/#about-us" >

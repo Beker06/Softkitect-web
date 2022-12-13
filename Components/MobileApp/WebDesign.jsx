@@ -6,7 +6,7 @@ import Developer from '../../public/img/developer2.png'
 const WebDesign = () => {
     return (
         <>
-            <div id="" className='web-design-container'>
+            <div id="web-development" className='web-design-container'>
                 <div className='web-row'>
                     <div className='web-col'>
                         <div className='web-title'>
@@ -45,9 +45,10 @@ const WebDesign = () => {
                             technologies compatible.
                         </div>
                     </div>
-                    <div className='web-photo-container'>
+                    {/* <div className='web-photo-container'>
                         <Image  src={Developer} alt="developer" />
-                    </div>
+                    </div> */}
+                    <Image  className='web-photo' src={Developer} alt="developer" />
                 </div>
                 <div className='appointment'>
                     <div className='appointment-text'>
