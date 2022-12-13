@@ -12,7 +12,7 @@
     flex-direction: row;
 }
 .web-col{
-    width: 876px;
+    width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
 }
 .web-photo-container img{
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: auto;
 }
 .developer-photo{
