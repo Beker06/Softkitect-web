@@ -14,6 +14,7 @@ import '../styles/banner-mobile.css'
 import '../styles/web-design.css'
 import '../styles/footer.css'
 
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }

@@ -44,13 +44,8 @@
     width: 50%;
     margin-top: 120px;
     float: right;
-    align-items: end;
+    align-items: flex-end;
 }
-/* .web-photo-container img{
-    display: flex;
-    width: 100%;
-    height: auto;
-} */
 .web-photo{
     position: absolute;
     width: 60%;

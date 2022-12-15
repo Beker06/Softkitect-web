@@ -14,7 +14,7 @@ const bannerHome = () => {
                             IT team.
                         </div>
                     </div>
-                    <div className="home-banner-buttons">
+                    <div className="home-banner-buttons right">
                         <button className="button-banner">Contact us</button>
                         <button className="button-banner">How we work</button>
                     </div>

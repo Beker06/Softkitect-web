@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: Proxima Nova;
   src: url(../public/fonts/Proxima-Nova-Rg-Regular.otf);
@@ -24,6 +23,7 @@ body {
   margin: 0;
   font-family: 'Proxima Nova';
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
@@ -55,4 +55,17 @@ ul{
 }
 .layout-contain{
   margin: auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.right{
+  transform: translateX(-400%);
+  transition: transform 0.4s ease;
+}
+.right:nth-of-type(even){
+  transform: translateX(400%);
+}
+
+.right.show{
+  transform: translateX(0);
 }

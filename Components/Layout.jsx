@@ -1,7 +1,33 @@
 import Head from "next/head";
-import React from "react";
+import React, { use, useEffect, useRef } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+
+const move = useRef(null);
+
+useEffect(() => {
+  console.log('Contenedor: ', move.current);
+});
+
+// const boxes = document.querySelectorAll('.right');
+
+// window.addEventListener('scroll', checkBoxes);
+
+// checkBoxes();
+
+// function checkBoxes(){
+//   const triggerBottom = window.innerHeight / 5 * 4;
+
+//   boxes.forEach(box => {
+//     const boxTop = box.getBoundingClientRect().top;
+
+//     if(boxTop < triggerBottom){
+//       box.classList.add('show');
+//     }else{
+//       box.classList.remove('show')
+//     }
+//   })
+// }
 
 export default function Layout({ title, children }) {
   return (
