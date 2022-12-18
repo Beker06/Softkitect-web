@@ -3,61 +3,30 @@ import React, { use, useEffect, useRef } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-
-
-
-
 export default function Layout({ title, children }) {
 
-// const boxes =  document.querySelectorAll('.right');
+  useEffect(() => {
+    const animacion = document.querySelectorAll('.right')
+    console.log(animacion);
 
-// window.addEventListener('scroll', checkBoxes);
+    window.addEventListener('scroll', checkBoxes);
 
-// checkBoxes();
+    checkBoxes();
 
-// function checkBoxes(){
-//   const triggerBottom = window.innerHeight / 5 * 4;
+    function checkBoxes(){
+      const triggerBottom = window.innerHeight / 5 * 4;
 
-//   boxes.forEach(box => {
-//     const boxTop = box.getBoundingClientRect().top;
+      animacion.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
 
-//     if(boxTop < triggerBottom){
-//       box.classList.add('show');
-//     }else{
-//       box.classList.remove('show')
-//     }
-//   })
-// }
-
-const move = useRef(null);
-
-useEffect(() => {
-  const animacion = document.querySelectorAll('.right')
-  console.log(animacion);
-
-  const container = move.current;
-  console.log('Contenedor: ', container)
-
-  window.addEventListener('scroll', checkBoxes);
-
-  checkBoxes();
-
-  function checkBoxes(){
-    const triggerBottom = window.innerHeight / 5 * 4;
-
-    animacion.forEach(box => {
-      const boxTop = box.getBoundingClientRect().top;
-
-      if(boxTop < triggerBottom){
-        box.classList.add('show');
-      }else{
-        box.classList.remove('show')
-      }
-    })
-  }
-}, []);
-
-
+        if(boxTop < triggerBottom){
+          box.classList.add('show');
+        }else{
+          box.classList.remove('show')
+        }
+      })
+    }
+  }, []);
 
   return (
     <>

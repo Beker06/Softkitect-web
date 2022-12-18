@@ -12,6 +12,10 @@ import '../styles/nearshore.css'
 import '../styles/software-support.css'
 import '../styles/banner-mobile.css'
 import '../styles/web-design.css'
+import '../styles/banner-tech.css'
+import '../styles/surfer.css'
+import '../styles/end-banner-tech.css'
+import '../styles/contact.css'
 import '../styles/footer.css'
 
 
