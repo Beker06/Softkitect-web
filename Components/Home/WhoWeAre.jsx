@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const WhoWeAre = () => {
+  const move = useRef(null);
   return (
     <>
         <div id="about-us" className="who-we-are">
           <div className="wwa-photo"></div>
-          <div className="wwa-info">
+          <div ref={move} className="wwa-info right">
             <div className="wwa-title">WHO WE ARE</div>
             <div className="wwa-text">
               We are a trusted technology partner to leading enterprises, SMBs

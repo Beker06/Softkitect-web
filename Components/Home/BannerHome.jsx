@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const bannerHome = () => {
+    const move = useRef(null);
+
     return (
         <>
             <div className="home-banner">
                 <div className="home-banner-row">
-                    <div className="home-banner-text-container">
+                    <div ref={move} className="home-banner-text-container right">
                         <div className="home-banner-text1" >YOUR REMOTE</div>
                         <div className="home-banner-text2">IT TEAMS</div>
                         <div className="home-banner-text3">AWAITS</div>
@@ -14,7 +16,7 @@ const bannerHome = () => {
                             IT team.
                         </div>
                     </div>
-                    <div className="home-banner-buttons right">
+                    <div  ref={move} className="home-banner-buttons right">
                         <button className="button-banner">Contact us</button>
                         <button className="button-banner">How we work</button>
                     </div>

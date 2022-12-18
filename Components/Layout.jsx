@@ -3,13 +3,13 @@ import React, { use, useEffect, useRef } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-const move = useRef(null);
 
-useEffect(() => {
-  console.log('Contenedor: ', move.current);
-});
 
-// const boxes = document.querySelectorAll('.right');
+
+
+export default function Layout({ title, children }) {
+
+// const boxes =  document.querySelectorAll('.right');
 
 // window.addEventListener('scroll', checkBoxes);
 
@@ -29,7 +29,36 @@ useEffect(() => {
 //   })
 // }
 
-export default function Layout({ title, children }) {
+const move = useRef(null);
+
+useEffect(() => {
+  const animacion = document.querySelectorAll('.right')
+  console.log(animacion);
+
+  const container = move.current;
+  console.log('Contenedor: ', container)
+
+  window.addEventListener('scroll', checkBoxes);
+
+  checkBoxes();
+
+  function checkBoxes(){
+    const triggerBottom = window.innerHeight / 5 * 4;
+
+    animacion.forEach(box => {
+      const boxTop = box.getBoundingClientRect().top;
+
+      if(boxTop < triggerBottom){
+        box.classList.add('show');
+      }else{
+        box.classList.remove('show')
+      }
+    })
+  }
+}, []);
+
+
+
   return (
     <>
       <Head>

@@ -1,8 +1,10 @@
 import Image from 'next/image';
-import React from 'react'
+import React, { useRef } from 'react'
 import WeAddress from "../../public/img/shutterstock1.jpg";
 
 const WhatYouGet = () => {
+  const move = useRef(null);
+
   return (
     <>
         <div className="what-you-get">
