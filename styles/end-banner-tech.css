@@ -1,0 +1,62 @@
+.end-tech-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/img/surfers.jpg');
+    font-family: Proxima Nova;
+}
+.end-tech-banner-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 908px;
+    margin-bottom: 107px;
+}
+.end-tech-banner-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: auto;
+    margin-left: 84px;
+    font-weight: 900;
+}
+.end-tech-banner-text1{
+    font-size: 139px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+}
+.end-tech-banner-text2{
+    font-size: 180px;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.end-tech-banner-text3{
+    font-size: 139px;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 30px;
+    color: #FCD900;
+    text-transform: uppercase;
+}
+.end-tech-banner-text4{
+    font-size: 32px;
+    margin-left: 30px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+.end-tech-banner-info{
+    display: flex;
+    flex-direction: row;
+    width: 692px;
+    margin: auto;
+}

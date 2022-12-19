@@ -1,0 +1,51 @@
+.tech-banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../public/img/shutterstock10.jpg');
+}
+.tech-banner-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 749px;
+    margin-bottom: 107px;
+}
+.tech-banner-text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 927px;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 900;
+}
+.tech-banner-text1{
+    display: flex;
+    font-family: Proxima Nova;
+    font-size: 177px;
+    font-weight: 900;
+    text-align: left;
+    color: #fff;
+    line-height: 148px;
+    text-transform: uppercase;
+}
+.tech-banner-text2{
+    display: flex;
+    max-width: 927px;
+    height: auto;
+    font-family: Proxima Nova;
+    font-size: 39px;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 38px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #fff;
+}

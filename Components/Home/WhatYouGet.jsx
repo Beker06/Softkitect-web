@@ -8,10 +8,10 @@ const WhatYouGet = () => {
   return (
     <>
         <div className="what-you-get">
-          <div className="wyg-text">what you get</div>
+          <div className="wyg-text right">what you get</div>
         </div>
           <div className="we-address-container">
-            <div className="we-address-text">
+            <div className="we-address-text right">
               We address your software development project in a personalized way.
               We will tailor solutions to your business’ needs, as well as
               integrate it into your ongoing project. Plus, we will guide you
@@ -24,8 +24,8 @@ const WhatYouGet = () => {
           </div>
           <Image className="we-address-photo" src={WeAddress} alt="we-address" />
           <div className="apply-section">
-            <div className="apply-container">
-              <div className="apply-text">
+            <div className="apply-container right">
+              <div className="apply-text ">
               [ Apply for our custom software development services now. ]
               </div>
               <button className="button-banner">Contact us</button>

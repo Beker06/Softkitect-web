@@ -3,6 +3,7 @@ import React, { use, useEffect, useRef } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
+
 export default function Layout({ title, children }) {
 
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function Layout({ title, children }) {
     checkBoxes();
 
     function checkBoxes(){
-      const triggerBottom = window.innerHeight / 5 * 4;
+      const triggerBottom = window.innerHeight / 20 * 18;
 
       animacion.forEach(box => {
         const boxTop = box.getBoundingClientRect().top;
