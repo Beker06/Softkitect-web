@@ -74,11 +74,16 @@
     background: #ffffff;
     font-family: Proxima Nova;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 400;
     border: none;
     line-height: 29px;
     padding-left: 16px;
+    outline: none;
   }
+  .textfield-footer-container input:FOCUS{
+    border: 3px solid #F5C843;
+  }
+
   .textfield-footer-container input::placeholder{
     color: #B5B4B4;
   }
@@ -94,6 +99,10 @@
     border: 1px solid #F5C843;
     cursor: pointer;
     background-color: #F5C843;
+  }
+  .textfield-footer-container button:hover{
+    color:#F5C843;
+    background-color: #000000;
   }
   .copyright-container{
     display: flex;

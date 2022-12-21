@@ -39,7 +39,7 @@ const Navbar = () => {
           <li><Link href="/tech-specialist" >
             IT TEAMWORKS
           </Link></li>
-          <li><Link href="/" >
+          <li><Link href="/tech-specialist#contact" >
             CONTACT US
           </Link></li>
           <li><Link href="/" className='get-started-button'>
