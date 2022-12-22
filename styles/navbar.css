@@ -92,3 +92,6 @@ ul li .get-started-button{
     background-color: #FDDB03;
     padding: 16px 16px 13px;
 }
+.get-started-button:hover{
+    background-color: rgba(0, 0, 0, 0);
+}

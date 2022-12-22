@@ -2,6 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import LogoHorizontal from "../public/img/softkitect-logo.png";
+import Cellphone from "../public/img/smartphone.png"
+import Location from "../public/img/location.png"
+import Globe from "../public/img/globe.png"
+import Envelope from "../public/img/envelope.png"
+import FaLogo from "../public/img/facebook.png"
+import InLogo from "../public/img/linkedin.png"
 
 const Footer = () => {
   return (
@@ -32,15 +38,19 @@ const Footer = () => {
         <div className='content-footer'>
           <div className='col-footer'>
             <div className='contact-footer-container'>
+              <Image className="icon-footer rotado" src={Cellphone} alt="phone-number"/>
               <label className='contact-footer-text'>+52 619.363.8880 ext.120</label>
             </div>
             <div className='contact-footer-container'>
+              <Image className="icon-footer" src={Envelope} alt="contact-mail"/>
               <label className='contact-footer-text'>contacto@sofkitect.tech</label>
             </div>
             <div className='contact-footer-container'>
+              <Image className="icon-footer" src={Globe} alt="earth-globe"/>
               <label className='contact-footer-text'>www.sofkitect.tech</label>
             </div>
             <div className='contact-footer-container'>
+              <Image className="icon-footer" src={Location} alt="address"/>
               <label className='contact-footer-text'>Calzada Tecnológico 14487 Local A-11 Parque Internacional Industrial Tijuana, Baja California, México</label>
             </div>
           </div>
@@ -60,7 +70,8 @@ const Footer = () => {
             Copyright Sofkitect 2022
           </div>
           <div className='icons-footer-container'>
-            si
+            <Image className="icon-social" src={FaLogo} alt="facebook-ico"/>
+            <Image className="icon-social" src={InLogo} alt="linkedin-ico"/>
           </div>
         </div>
       </footer>

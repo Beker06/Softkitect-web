@@ -61,7 +61,7 @@
     font-size: 24px;
     font-weight: 100;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .textfield-footer-container{
     display: flex;
@@ -120,4 +120,25 @@
     font-size: 23px;
     font-weight: 100;
     line-height: 28px;
+  }
+  .icon-footer{
+    max-width: 37px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-social{
+    max-width: 28px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .rotado{
+    transform: rotate(-15deg);
+  }
+  .icons-footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 66px;
+    justify-content: space-between;
   }
