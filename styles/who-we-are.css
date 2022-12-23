@@ -12,7 +12,7 @@
     object-fit: contain;
     background-size: cover;
     float: left;
-    background-image: url('../public//img/shutterstock11.jpg');
+    background-image: url('../public/img/shutterstock11.jpg');
 }
 .wwa-info{
     display: flex;
@@ -39,4 +39,58 @@
     font-size: 28px;
     letter-spacing: 0px;
     text-align: left;
+}
+.features-photo{
+    display: flex;
+    flex-direction: row;
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    background-size: cover;
+    margin: 0px auto;
+    
+}
+.digital{
+    background-image: url('../public/img/digital-icon-gray.png');
+}
+.multiplatform{
+    background-image: url('../public/img/multiplatform-gray.png');
+}
+.business{
+    background-image: url('../public/img/business-icon-gray.png');
+}
+.features-card{
+    display: flex;
+    max-width: 490px;
+    height: auto;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.features-card:hover{
+    transform: scale(1.05);
+}
+.features-card:hover .digital{
+    background-image: url('../public/img/digital-icon-black.png');
+}
+.features-card:hover .multiplatform{
+    background-image: url('../public/img/multiplatform-black.png');
+}
+.features-card:hover .business{
+    background-image: url('../public/img/business-icon-black.png');
+}
+.features-card-title{
+    font-family: Proxima Nova;
+    font-weight: 900;
+    font-size: 33px;
+    line-height: 39px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 37px;
+}
+.features-card-text{
+    font-family: Proxima Nova;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 28px;
 }

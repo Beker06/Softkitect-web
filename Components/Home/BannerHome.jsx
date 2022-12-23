@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const bannerHome = () => {
@@ -16,8 +17,8 @@ const bannerHome = () => {
                         </div>
                     </div>
                     <div  className="home-banner-buttons right">
-                        <button className="button-banner">Contact us</button>
-                        <button className="button-banner">How we work</button>
+                        <Link href="/tech-specialist#contact"><button className="button-banner">Contact us</button></Link>
+                        <Link href="/tech-specialist#contact"><button className="button-banner">How we work</button></Link>
                     </div>
                 </div>
             </div>

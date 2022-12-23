@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const EndBannerHome = () => {
@@ -15,7 +16,7 @@ const EndBannerHome = () => {
                                 <br />
                                 We’ll set up a quick call to discuss how to make your project work. <br/> op and tablets using the latest technologies compatible.
                             </div>
-                            <button className="button-banner" style={{marginTop: "85px", marginRight:"80px"}}>Contact us</button>
+                            <Link href="/tech-specialist#contact"><button className="button-banner"  style={{marginTop: "85px", marginRight:"80px"}} >Contact us</button></Link>
                         </div>
                 </div>
             </div>

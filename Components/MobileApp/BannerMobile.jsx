@@ -9,14 +9,14 @@ const BannerMobile = () => {
         <>
             <div className="mobile-banner">
                 <div className="mobile-banner-row">
-                    <div className="mobile-banner-text-container">
+                    <div className="mobile-banner-text-container right">
                         <div className="about-banner-text2" >movil app</div>
                         <div className="about-banner-text1">development</div>
                     </div>
                 </div>
             </div>
             <div className='some-benefits'>
-                <div className='some-benefits-text' style={{fontSize: "36px"}}>
+                <div className='some-benefits-text right' style={{fontSize: "36px"}}>
                     [ Get a visually stunning & functionally 
                     effective mobile app for Android, iOS or 
                     Windows. ]
@@ -24,10 +24,10 @@ const BannerMobile = () => {
             </div>
             <div className='customers-needs'>
                 <div className='needs-col-photos'>
-                    <Image className="needs-photo1" src={NeedsPhotoOne} alt="needs-photo-one" />
-                    <Image className="needs-photo2" src={NeedsPhotoTwo} alt="needs-photo-two" />
+                    <Image className="needs-photo1 right" src={NeedsPhotoOne} alt="needs-photo-one" />
+                    <Image className="needs-photo2 right" src={NeedsPhotoTwo} alt="needs-photo-two" />
                 </div>
-                <div className='needs-col-text'>
+                <div className='needs-col-text right'>
                     Technology helps us to make things 
                     better and faster. Through it we connect, 
                     we make a difference in other people’s 

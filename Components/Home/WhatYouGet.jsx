@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useRef } from 'react'
 import WeAddress from "../../public/img/shutterstock1.jpg";
 
@@ -28,7 +29,7 @@ const WhatYouGet = () => {
               <div className="apply-text ">
               [ Apply for our custom software development services now. ]
               </div>
-              <button className="button-banner">Contact us</button>
+              <Link href="/tech-specialist#contact"><button className="button-banner bb-two">Contact us</button></Link>
             </div>
           </div>
     </>

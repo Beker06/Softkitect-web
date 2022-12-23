@@ -45,13 +45,10 @@ const WebDesign = () => {
                             technologies compatible.
                         </div>
                     </div>
-                    {/* <div className='web-photo-container'>
-                        <Image  src={Developer} alt="developer" />
-                    </div> */}
-                    <Image  className='web-photo' src={Developer} alt="developer" />
+                    <Image  className='web-photo right' src={Developer} alt="developer" />
                 </div>
                 <div className='appointment'>
-                    <div className='appointment-text'>
+                    <div className='appointment-text right'>
                         [ Make an appointment NOW! ]
                     </div>
                 </div>

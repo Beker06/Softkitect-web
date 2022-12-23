@@ -42,7 +42,7 @@ const Navbar = () => {
           <li><Link href="/tech-specialist#contact" >
             CONTACT US
           </Link></li>
-          <li><Link href="/" className='get-started-button'>
+          <li><Link href="/tech-specialist#contact" className='get-started-button'>
             GET STARTED
           </Link></li>
         </ul>

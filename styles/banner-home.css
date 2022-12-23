@@ -72,8 +72,7 @@
     font-size: 24px;
     font-weight: 100;
     line-height: 29px;
-    color: #FDDB03;
-    border: none;
+    color: #F5C742;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
@@ -81,5 +80,9 @@
 }
 .button-banner:hover{
     color: #000;
-    background-color: #FDDB03;
+    background-color: #F5C742;
+    
+}
+.bb-two:hover{
+    border: 1px solid #000000;
 }
