@@ -26,7 +26,7 @@ const WhatYouGet = () => {
           <Image className="we-address-photo disappear" src={WeAddress} alt="we-address"></Image>
           <div className="apply-section">
             <div className="apply-container right">
-              <div className="apply-text ">
+              <div className="apply-text "> 
               [ Apply for our custom software development services now. ]
               </div>
               <Link href="/tech-specialist#contact"><button className="button-banner bb-two">Contact us</button></Link>
