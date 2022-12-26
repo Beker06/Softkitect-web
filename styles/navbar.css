@@ -1,12 +1,12 @@
 .active {
-    border-bottom: 3px solid #FDDB03;
+    border-bottom: 3px solid #F5C843;
 }
 
 .inactive {
     border-bottom: none;
 }
 .navbar-container {
-    background-color: rgba(0, 0, 0, 0.69);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.69), #111);
     width: 100%;
     height: auto;
     padding-left: 3.5rem;
@@ -48,11 +48,11 @@
     letter-spacing: 1.5px;
 }
 .navLinksContainer li a:hover{
-    color: #FDDB03;
+    color: #F5C843;
 }
 .navLinksContainer li:hover{
     position: relative;
-    color: #FDDB03;
+    color: #F5C843;
 }
 .submenu-services{
     position: absolute;
@@ -61,8 +61,7 @@
     top: 128px;
     left: 55px;
     width: 125%;
-    
-    background-color: rgba(0, 0, 0, 0.69);
+    background-color: rgba(0, 0, 0, 0.32);
 }
 .submenu-services li{
     justify-content: left;
@@ -75,6 +74,7 @@
 .navLinksContainer li:hover .submenu-services{
     display: block;
 }
+
 ul li .get-started-button{
     position: inherit;
     display: flex;
@@ -86,10 +86,10 @@ ul li .get-started-button{
     font-weight: 900;
     font-size: 17px;
     letter-spacing: 1px;
-    border: 1px solid #FDDB03;
+    border: 1px solid #F5C843;
     border-radius: 1px;
     color: #000000;
-    background-color: #FDDB03;
+    background-color: #F5C843;
     padding: 16px 16px 13px;
 }
 .get-started-button:hover{

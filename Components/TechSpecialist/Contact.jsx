@@ -51,8 +51,8 @@ const Contact = () => {
   return (
     <> 
       <div id='contact' className='contact-container'>
-        <div className='contact-title'>Contact Softkitect</div>
-        <form className='form-contact'>
+        <div className='contact-title disappear'>Contact Softkitect</div>
+        <form className='form-contact disappear' >
           <div className='form-row'>
             <div className='textfield-container'>
               <label className='textfield-title'>First Name*</label>

@@ -48,7 +48,6 @@
     object-fit: contain;
     background-size: cover;
     margin: 0px auto;
-    
 }
 .digital{
     background-image: url('../public/img/digital-icon-gray.png');
@@ -66,9 +65,11 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
+    color: #636363;
 }
 .features-card:hover{
     transform: scale(1.05);
+    color: #000000;
 }
 .features-card:hover .digital{
     background-image: url('../public/img/digital-icon-black.png');

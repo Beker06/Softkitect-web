@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { use, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -9,6 +9,9 @@ export default function Layout({ title, children }) {
   useEffect(() => {
     const animacion = document.querySelectorAll('.right')
     console.log(animacion);
+
+    const animacion2 = document.querySelectorAll('.disappear')
+    console.log(animacion2)
 
     window.addEventListener('scroll', checkBoxes);
 
@@ -26,6 +29,17 @@ export default function Layout({ title, children }) {
           box.classList.remove('show')
         }
       })
+
+      animacion2.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
+
+        if(boxTop < triggerBottom){
+          box.classList.add('show');
+        }else{
+          box.classList.remove('show')
+        }
+      })
+
     }
   }, []);
 

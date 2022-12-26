@@ -2,12 +2,11 @@ import React, { useRef } from 'react'
 import Transformation from "../../public/img/digital-icon-gray.png"
 
 const WhoWeAre = () => {
-  const move = useRef(null);
   return (
     <>
-      <div id="about-us" className="who-we-are">
+      <div id="about-us" className="who-we-are disappear">
         <div className="wwa-photo"></div>
-        <div ref={move} className="wwa-info right">
+        <div className="wwa-info right">
           <div className="wwa-title">WHO WE ARE</div>
           <div className="wwa-text">
             We are a trusted technology partner to leading enterprises, SMBs
@@ -20,7 +19,7 @@ const WhoWeAre = () => {
         </div>
       </div>
       <div className="advantages-container">
-        <div className="features-card">
+        <div className="features-card right">
           <div className='features-photo digital'></div>
           <div className="features-card-title">
             digital <br/>transformation
@@ -30,7 +29,7 @@ const WhoWeAre = () => {
           all business´s processes to meet customer and market expectations. Small businesses, Startups and Entrepreneurs are welcome.
           </div>
         </div>
-        <div className="features-card">
+        <div className="features-card disappear">
           <div className='features-photo multiplatform'></div>
           <div className="features-card-title">
             multi-platform <br/>software solutions
@@ -41,7 +40,7 @@ const WhoWeAre = () => {
           different mobile devices.
           </div>
         </div>
-        <div className="features-card">
+        <div className="features-card right">
           <div className='features-photo business'></div>
           <div className="features-card-title">
             business intelligence services

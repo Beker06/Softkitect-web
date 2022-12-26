@@ -1,0 +1,91 @@
+.surfer-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0px 130px 100px 130px;
+    justify-content: space-between;
+    position: relative;
+}
+.surfer-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 385px;
+    z-index: 2;
+    position: relative;
+}
+.col-one{
+    margin-top: 40px;
+}
+.col-two{
+    margin-top: 280px;
+}
+.surfer-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.icon-surfer{
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    background-size: cover;
+}
+.iconOne{
+    max-width: 123px;
+    height: auto;
+    margin-bottom: 48.5px;
+    margin-left: 30px;
+}
+.iconTwo{
+    max-width: 127px;
+    height: auto;
+    margin-bottom: 67px;
+}
+.iconThree{
+    max-width: 152px;
+    height: auto;
+    margin-bottom: 55px;
+}
+.iconFour{
+    max-width: 169px;
+    height: auto;
+    margin-bottom: 55px;
+}
+.surfer-title{
+    font-family: Proxima Nova;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 33px;
+}
+.surfer-text{
+    font-family: Proxima Nova;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.surfer-photo{
+    position: absolute;
+    width: 45vw;
+    height: auto;
+    top: 6vh;
+    left: 30vw;
+}
+.line{
+    position: absolute;
+    width: 10vw;
+    height: auto;
+    z-index: 1;
+}
+.line-pink{
+    right: -6vw;
+}
+.line-blue{
+    right: -2vw;
+}
+.line-orange{
+    right: 6vw;
+    top: 0vh;
+}
+.line-green{
+    left: -20vh;
+}

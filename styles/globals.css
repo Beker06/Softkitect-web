@@ -69,3 +69,13 @@ ul{
 .right.show{
   transform: translateX(0);
 }
+.disappear{
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+.disappear:nth-of-type(even){
+  opacity: 0;
+}
+.disappear.show{
+  opacity: 1;
+}

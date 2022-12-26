@@ -46,6 +46,7 @@ const Navbar = () => {
             GET STARTED
           </Link></li>
         </ul>
+        <div className="fadebottom"></div>
       </nav>
     </header>
   )

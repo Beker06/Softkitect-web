@@ -6,7 +6,7 @@ import BannerMobile from '../Components/MobileApp/BannerMobile'
 const it = () => {
   return (
     <>
-      <Layout title="IT Outsourcing">
+      <Layout title="Mobile App">
         <BannerMobile/>
         <WebDesign/>
       </Layout>

@@ -142,3 +142,8 @@
     width: 66px;
     justify-content: space-between;
   }
+
+  .footer-links-container a:hover{
+    color: #FDDB03;
+    text-decoration: underline;
+  }

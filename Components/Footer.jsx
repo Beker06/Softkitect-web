@@ -25,13 +25,13 @@ const Footer = () => {
           <Link href="/" className="inactive">
             SERVICES
           </Link>
-          <Link href="/about" className="inactive">
+          <Link href="/#about-us" className="inactive">
             ABOUT US
           </Link>
           <Link href="/it" className="inactive">
             IT TEAMWORKS
           </Link>
-          <Link href="/contact" className="inactive">
+          <Link href="/tech-specialist#contact" className="inactive">
             CONTACT US
           </Link>
         </nav>

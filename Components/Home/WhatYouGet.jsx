@@ -8,7 +8,7 @@ const WhatYouGet = () => {
 
   return (
     <>
-        <div className="what-you-get">
+        <div className="what-you-get disappear">
           <div className="wyg-text right">what you get</div>
         </div>
           <div className="we-address-container">
@@ -23,7 +23,7 @@ const WhatYouGet = () => {
               make sure you are successful.
             </div>
           </div>
-          <Image className="we-address-photo" src={WeAddress} alt="we-address" />
+          <Image className="we-address-photo disappear" src={WeAddress} alt="we-address"></Image>
           <div className="apply-section">
             <div className="apply-container right">
               <div className="apply-text ">
