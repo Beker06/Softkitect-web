@@ -19,7 +19,7 @@ const BannerAbout = () => {
                 </div>
             </div>
             <div className='softkitec-team'>
-                <div className='softkitec-team-text'>
+                <div className='softkitec-team-text disappear'>
                     The Sofkitect team addresses your software development project in a custom manner. 
                     We’re ready to tailor a software solution specific to your business needs as well 
                     as integrate into your ongoing project. Moreover, we’re able to walk you through the 
@@ -29,7 +29,7 @@ const BannerAbout = () => {
                     succeed. Request our custom software development services now.
                 </div>
             </div>
-            <Image className="softkitec-team-photo" src={SoftkitecTeam} alt="softkitec-team" />
+            <Image className="softkitec-team-photo disappear" src={SoftkitecTeam} alt="softkitec-team" />
         </>
     )
 }

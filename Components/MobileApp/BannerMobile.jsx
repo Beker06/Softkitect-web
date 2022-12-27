@@ -16,7 +16,7 @@ const BannerMobile = () => {
                 </div>
             </div>
             <div className='some-benefits'>
-                <div className='some-benefits-text right' style={{fontSize: "36px"}}>
+                <div className='some-benefits-text disappear' style={{fontSize: "36px"}}>
                     [ Get a visually stunning & functionally 
                     effective mobile app for Android, iOS or 
                     Windows. ]
@@ -27,7 +27,7 @@ const BannerMobile = () => {
                     <Image className="needs-photo1 right" src={NeedsPhotoOne} alt="needs-photo-one" />
                     <Image className="needs-photo2 right" src={NeedsPhotoTwo} alt="needs-photo-two" />
                 </div>
-                <div className='needs-col-text right'>
+                <div className='needs-col-text left'>
                     Technology helps us to make things 
                     better and faster. Through it we connect, 
                     we make a difference in other people’s 
@@ -59,7 +59,7 @@ const BannerMobile = () => {
                     development lean methodology.
                 </div>
             </div>
-            <Image className="designteam-photo" src={DesignTeam} alt="design-team" />
+            <Image className="designteam-photo disappear" src={DesignTeam} alt="design-team" />
         </>
     )
 }

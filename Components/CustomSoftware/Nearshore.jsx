@@ -6,13 +6,13 @@ const Nearshore = () => {
   return (
     <>
       <div className="nearshore-container">
-        <div className='nearshore-row'>
+        <div className='nearshore-row disappear'>
           <label>
             NEARSHORE
           </label>
         </div>
         <div className='nearshore-row'>
-          <div className="nearshore-col">
+          <div className="nearshore-col right">
             Amazing ideas have no boundaries. Neither 
             technology. Nearshore Software Development 
             offers you the best offshoring at the nearest 
@@ -41,7 +41,7 @@ const Nearshore = () => {
             you are taking a plane, we are only a 2 to 3 hours flight 
             away.
           </div>
-          <div className="nearshore-col">
+          <div className="nearshore-col left">
             <label>Bilingual/Bicultural (cultural affinity)</label> 
             <br/>
             The proximity with San Diego and the state of California 
@@ -74,17 +74,17 @@ const Nearshore = () => {
         </div>
       </div>
       <div className='some-benefits'>
-        <div className='some-benefits-text'>
+        <div className='some-benefits-text disappear'>
           Some Benefits of Hiring Remote Software
           Developers in Baja
         </div>
       </div>
-      <Image className="devgirl-photo" src={DevGirl} alt="dev-girl" />
+      <Image className="devgirl-photo disappear" src={DevGirl} alt="dev-girl" />
       <div className='bilingual-container'>
-        <div className='bilingual-title'>
+        <div className='bilingual-title right'>
           <label>BILINGUAL</label> TEAM
         </div>
-        <div className='bilingual-text'>
+        <div className='bilingual-text left'>
           Set your own team of professional and Agile remote
           developers that speak your language and embrace
           your business culture.

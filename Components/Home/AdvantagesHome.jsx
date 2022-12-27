@@ -3,7 +3,7 @@ import React from 'react'
 const AdvantagesHome = () => {
   return (
     <>
-      <div className="advantages-container">
+      <div className="advantages-container disappear">
         <div className="advantages-card">
           <div className="advantages-card-title">
             Agile team development

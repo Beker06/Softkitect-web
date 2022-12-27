@@ -7,7 +7,7 @@ const bannerHome = () => {
         <>
             <div className="home-banner">
                 <div className="home-banner-row">
-                    <div  className="home-banner-text-container right">
+                    <div  className="home-banner-text-container">
                         <div className="home-banner-text1" >YOUR REMOTE</div>
                         <div className="home-banner-text2">IT TEAMS</div>
                         <div className="home-banner-text3">AWAITS</div>
@@ -16,7 +16,7 @@ const bannerHome = () => {
                             IT team.
                         </div>
                     </div>
-                    <div  className="home-banner-buttons right">
+                    <div  className="home-banner-buttons left">
                         <Link href="/tech-specialist#contact"><button className="button-banner">Contact us</button></Link>
                         <Link href="/tech-specialist#contact"><button className="button-banner">How we work</button></Link>
                     </div>

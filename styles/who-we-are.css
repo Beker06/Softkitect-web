@@ -8,11 +8,13 @@
 .wwa-photo{
     display: flex;
     width: 55%;
-    height: 668px;
-    object-fit: contain;
-    background-size: cover;
     float: left;
-    background-image: url('../public/img/shutterstock11.jpg');
+    align-items: center;
+}
+.wwa-photo img{
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 .wwa-info{
     display: flex;

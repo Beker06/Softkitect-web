@@ -15,8 +15,8 @@ const Surfer = () => {
   return (
     <>
       <div className='surfer-container'>
-        <div className='surfer-col col-one right'>
-          <div className='surfer-card cardOne'>
+        <div className='surfer-col col-one'>
+          <div className='surfer-card cardOne right'>
             <Image className='icon-surfer iconOne' src={Gear} alt="gear-icon"/>
             <Image className='line line-pink' src={LinePink} alt="line-pink"/>
             <div className='surfer-title'>
@@ -29,7 +29,7 @@ const Surfer = () => {
               So you can focus on maximizing competitive capability and innovation.
             </div>
           </div>
-          <div className='surfer-card cardTwo'>
+          <div className='surfer-card cardTwo right'>
             <Image className='icon-surfer iconTwo' src={DevOps} alt="devops-icon"/>
             <Image className='line line-blue' src={LineBlue} alt="line-blue"/>
             <div className='surfer-title'>
@@ -44,8 +44,8 @@ const Surfer = () => {
           </div>
         </div>
         <Image src={SurferGuy} className="surfer-photo disappear" alt="surfer-guy"/>
-        <div className='surfer-col col-two right'>
-          <div className='surfer-card cardThree'>
+        <div className='surfer-col col-two'>
+          <div className='surfer-card cardThree left'>
             <Image className='icon-surfer iconThree' src={Saas} alt="saas-icon"/>
             <Image className='line line-orange' src={LineOrange} alt="line-Orange"/>
             <div className='surfer-title'>
@@ -58,7 +58,7 @@ const Surfer = () => {
               with your vision and understand the problem you are solving.
             </div>
           </div>
-          <div className='surfer-card cardFour'>
+          <div className='surfer-card cardFour left'>
             <Image className='icon-surfer iconFour' src={ApiCloud} alt="api-icon"/>
             <Image className='line line-green' src={LineGreen} alt="line-green"/>
             <div className='surfer-title'>

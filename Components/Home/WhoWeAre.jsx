@@ -1,12 +1,16 @@
-import React, { useRef } from 'react'
-import Transformation from "../../public/img/digital-icon-gray.png"
+import Image from 'next/image'
+import React from 'react'
+import Oficewwa from '../../public/img/shutterstock11.jpg'
+
 
 const WhoWeAre = () => {
   return (
     <>
       <div id="about-us" className="who-we-are disappear">
-        <div className="wwa-photo"></div>
-        <div className="wwa-info right">
+        <div className="wwa-photo">
+          <Image src={Oficewwa} alt="office"/>
+        </div>
+        <div className="wwa-info left">
           <div className="wwa-title">WHO WE ARE</div>
           <div className="wwa-text">
             We are a trusted technology partner to leading enterprises, SMBs
@@ -40,7 +44,7 @@ const WhoWeAre = () => {
           different mobile devices.
           </div>
         </div>
-        <div className="features-card right">
+        <div className="features-card left">
           <div className='features-photo business'></div>
           <div className="features-card-title">
             business intelligence services

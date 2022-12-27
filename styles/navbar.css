@@ -6,7 +6,7 @@
     border-bottom: none;
 }
 .navbar-container {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.69), #111);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.69));
     width: 100%;
     height: auto;
     padding-left: 3.5rem;
@@ -38,7 +38,7 @@
     align-items: center;
     text-align: left;
 }
-.navLinksContainer li a {
+.navLinksContainer li a,.navLinksContainer li label {
     position: relative;
     display: flex;
     color: #ffffff;
@@ -47,7 +47,7 @@
     line-height: 23.44px;
     letter-spacing: 1.5px;
 }
-.navLinksContainer li a:hover{
+.navLinksContainer li a:hover,.navLinksContainer li label:hover{
     color: #F5C843;
 }
 .navLinksContainer li:hover{

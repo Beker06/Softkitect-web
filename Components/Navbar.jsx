@@ -23,7 +23,7 @@ const Navbar = () => {
             HOME
           </Link></li>
           <li>
-            <Link href="">SERVICES</Link>
+            <label>SERVICES</label>
             <ul className='submenu-services'>
               <li><Link href="/custom-software-development">CUSTOM SOFTWARE DEVELOPMENT SERVICES</Link></li>
               <li><Link href="/mobile-app">MOBILE APP DEVELOPMENT</Link></li>

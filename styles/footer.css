@@ -144,6 +144,7 @@
   }
 
   .footer-links-container a:hover{
-    color: #FDDB03;
+    color: #F5C843;
+    transform: scale(1.02);
     text-decoration: underline;
   }

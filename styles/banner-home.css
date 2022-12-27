@@ -70,9 +70,9 @@
     background-color: #000;
     font-family: Proxima Nova;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 29px;
-    color: #F5C742;
+    color: #F5C843;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
@@ -80,7 +80,7 @@
 }
 .button-banner:hover{
     color: #000;
-    background-color: #F5C742;
+    background-color: #F5C843;
     
 }
 .bb-two:hover{

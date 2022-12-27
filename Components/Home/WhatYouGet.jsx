@@ -12,7 +12,7 @@ const WhatYouGet = () => {
           <div className="wyg-text right">what you get</div>
         </div>
           <div className="we-address-container">
-            <div className="we-address-text right">
+            <div className="we-address-text left">
               We address your software development project in a personalized way.
               We will tailor solutions to your business’ needs, as well as
               integrate it into your ongoing project. Plus, we will guide you
@@ -25,11 +25,11 @@ const WhatYouGet = () => {
           </div>
           <Image className="we-address-photo disappear" src={WeAddress} alt="we-address"></Image>
           <div className="apply-section">
-            <div className="apply-container right">
-              <div className="apply-text "> 
+            <div className="apply-container">
+              <div className="apply-text right"> 
               [ Apply for our custom software development services now. ]
               </div>
-              <Link href="/tech-specialist#contact"><button className="button-banner bb-two">Contact us</button></Link>
+              <Link href="/tech-specialist#contact"><button className="button-banner bb-two left">Contact us</button></Link>
             </div>
           </div>
     </>

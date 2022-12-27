@@ -8,7 +8,7 @@ const WebDesign = () => {
         <>
             <div id="web-development" className='web-design-container'>
                 <div className='web-row'>
-                    <div className='web-col'>
+                    <div className='web-col right'>
                         <div className='web-title'>
                             WEB DESIGN
                         </div>
@@ -45,14 +45,14 @@ const WebDesign = () => {
                             technologies compatible.
                         </div>
                     </div>
-                    <Image  className='web-photo right' src={Developer} alt="developer" />
+                    <Image  className='web-photo left' src={Developer} alt="developer" />
                 </div>
                 <div className='appointment'>
-                    <div className='appointment-text right'>
+                    <div className='appointment-text disappear'>
                         [ Make an appointment NOW! ]
                     </div>
                 </div>
-                <Image className="devguy1-photo" src={DevGuyOne} alt="dev-guy-one" />
+                <Image className="devguy1-photo disappear" src={DevGuyOne} alt="dev-guy-one" />
             </div>
         </>
     )

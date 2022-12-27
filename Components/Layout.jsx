@@ -10,8 +10,11 @@ export default function Layout({ title, children }) {
     const animacion = document.querySelectorAll('.right')
     console.log(animacion);
 
-    const animacion2 = document.querySelectorAll('.disappear')
+    const animacion2 = document.querySelectorAll('.left')
     console.log(animacion2)
+
+    const animacion3 = document.querySelectorAll('.disappear')
+    console.log(animacion3)
 
     window.addEventListener('scroll', checkBoxes);
 
@@ -31,6 +34,16 @@ export default function Layout({ title, children }) {
       })
 
       animacion2.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
+
+        if(boxTop < triggerBottom){
+          box.classList.add('show');
+        }else{
+          box.classList.remove('show')
+        }
+      })
+
+      animacion3.forEach(box => {
         const boxTop = box.getBoundingClientRect().top;
 
         if(boxTop < triggerBottom){

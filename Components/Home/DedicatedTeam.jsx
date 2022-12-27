@@ -4,13 +4,13 @@ const DedicatedTeam = () => {
   return (
     <>
         <div className="dedicated-team">
-          <div className="dedicated-team-text">
+          <div className="dedicated-team-text right">
             <label>A DEDICATED</label> DEVELOPMENT <br />
             <label>TEAM OR A</label> FIXED-COST <label>CONTRACT?</label>
           </div>
         </div>
         <div className="dt-info">
-          <div className="dt-info-row">
+          <div className="dt-info-row disappear">
             There are two ways to work with an offshore software development
             company: a dedicated team or a fixed-cost contract. Both models are
             good. Much depends upon what exactly you are looking for and what is
@@ -29,7 +29,7 @@ const DedicatedTeam = () => {
             <br />
             <br />
           </div>
-          <div className="dt-info-row">
+          <div className="dt-info-row disappear">
             <div className="dt-info-col">
               <b>Developers ( Team Lead/Senior/Middle/Junior )</b> - they are
               the ones who write and launch the code of the software or

@@ -62,10 +62,13 @@ ul{
   transform: translateX(-400%);
   transition: transform 0.6s ease;
 }
-.right:nth-of-type(even){
+.left{
   transform: translateX(400%);
+  transition: transform 0.6s ease;
 }
-
+.left.show{
+  transform: translateX(0);
+}
 .right.show{
   transform: translateX(0);
 }

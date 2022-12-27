@@ -10,7 +10,7 @@ const EndBannerHome = () => {
                             LET’S <label>DISCUSS</label> <br/>YOUR PROJECT IDEA
                         </div>
                         <div className="end-home-banner-text-container2">
-                            <div className="end-home-banner-text2">
+                            <div className="end-home-banner-text2 right">
                                 In case you don’t know where to start your project, you can get in touch with our Business Consultant.
                                 <br />
                                 <br />

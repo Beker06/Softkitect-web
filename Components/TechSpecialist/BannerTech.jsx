@@ -12,7 +12,7 @@ const BannerTech = () => {
         </div>
       </div>
       <div className='some-benefits'>
-        <div className='some-benefits-text' style={{fontSize: "39px", margin: "46px auto"}}>
+        <div className='some-benefits-text disappear' style={{fontSize: "39px", margin: "46px auto"}}>
           Our dedicated software engineers can handle your 
           development and support needs.
         </div>
