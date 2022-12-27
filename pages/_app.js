@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import '../styles/navbar.css'
-import '../styles/home.css'
 import '../styles/banner-home.css'
 import '../styles/who-we-are.css'
 import '../styles/what-you-get.css'
@@ -17,7 +16,6 @@ import '../styles/surfer.css'
 import '../styles/end-banner-tech.css'
 import '../styles/contact.css'
 import '../styles/footer.css'
-
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

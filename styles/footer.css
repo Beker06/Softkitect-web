@@ -1,150 +1,248 @@
 .footer-container {
-    background-color: #000000;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
-    color: #ffffff;
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  color: #ffffff;
+}
+.footer-links-container{
+  display: flex;
+  width: 100%;
+  height: 128px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  
+  margin-top: 50px;
+}
+.footer-links-container a{
+  display: flex;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 28px;
+  letter-spacing: 1.5px;
+}
+.footer-logo-container{
+  display: flex;
+  width: 16vw;
+  height: auto;
+}
+.footer-logo-container img{
+  width: 100%;
+  height: 100%;
+}
+.content-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+.col-footer {
+  display: flex;
+  max-width: 500px;
+  height: auto;
+  flex-direction: column;
+}
+.contact-footer-container{
+  display: flex;
+  flex-direction: row;
+  max-width: 480px;
+  height: auto;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.contact-footer-container label{
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 15px;
+}
+.textfield-footer-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+.textfield-footer-container input{
+  width: 397px;
+  height: 78px;
+  background: #ffffff;
+  font-family: Proxima Nova;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+  line-height: 29px;
+  padding-left: 16px;
+  outline: none;
+}
+.textfield-footer-container input:FOCUS{
+  border: 3px solid #F5C843;
+}
+
+.textfield-footer-container input::placeholder{
+  color: #B5B4B4;
+}
+.textfield-footer-container button{
+  width: 185px;
+  height: 78px;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  border: 1px solid #F5C843;
+  cursor: pointer;
+  background-color: #F5C843;
+}
+.textfield-footer-container button:hover{
+  color:#F5C843;
+  background-color: #000000;
+}
+.copyright-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 112px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 48px;
+  border-top: 1px solid #ffffff;
+  align-items: center;
+}
+.copyright-text{
+  font-family: Proxima Nova;
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 28px;
+}
+.icon-footer{
+  max-width: 37px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.icon-social{
+  max-width: 28px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.rotado{
+  transform: rotate(-15deg);
+}
+.icons-footer-container{
+  display: flex;
+  flex-direction: row;
+  width: 66px;
+  justify-content: space-between;
+}
+
+.footer-links-container a:hover{
+  color: #F5C843;
+  transform: scale(1.02);
+  text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1660px) {
+  .footer-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .footer-links-container{
-    display: flex;
-    width: 100%;
-    height: 128px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    
-    margin-top: 50px;
+    height: 96px;
+    margin-top: 44px;
   }
   .footer-links-container a{
-    display: flex;
-    font-size: 23px;
-    font-weight: 100;
-    line-height: 28px;
-    letter-spacing: 1.5px;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
   }
   .footer-logo-container{
-    display: flex;
-    max-width: 12.5rem;
-    height: auto;
-  }
-  .footer-logo-container img{
-    width: 100%;
-    height: 100%;
+    width: 14vw;
   }
   .content-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 40px;
+    margin-top: 35px;
   }
   .col-footer {
-    display: flex;
-    max-width: 500px;
-    height: auto;
-    flex-direction: column;
+    max-width: 438.5px;
   }
   .contact-footer-container{
-    display: flex;
-    flex-direction: row;
-    max-width: 480px;
-    height: auto;
+    max-width: 420px;
     margin-bottom: 25px;
-    align-items: center;
   }
   .contact-footer-container label{
-    font-family: Proxima Nova;
-    font-size: 24px;
-    font-weight: 100;
-    text-align: left;
-    margin-left: 15px;
+    font-size: 21.5px;
+    margin-left: 12px;
   }
   .textfield-footer-container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 200px;
+    margin-top: 175px;
   }
   .textfield-footer-container input{
-    width: 397px;
-    height: 78px;
-    background: #ffffff;
-    font-family: Proxima Nova;
-    font-size: 24px;
-    font-weight: 400;
-    border: none;
-    line-height: 29px;
-    padding-left: 16px;
-    outline: none;
+    width: 347px;
+    height: 68px;
+    font-size: 21px;
+    line-height: 24px;
+    padding-left: 14px;
   }
   .textfield-footer-container input:FOCUS{
-    border: 3px solid #F5C843;
-  }
-
-  .textfield-footer-container input::placeholder{
-    color: #B5B4B4;
+    border: 2px solid #F5C843;
   }
   .textfield-footer-container button{
-    width: 185px;
-    height: 78px;
-    text-align: center;
-    font-family: Proxima Nova;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    border: 1px solid #F5C843;
-    cursor: pointer;
-    background-color: #F5C843;
+    width: 162px;
+    height: 68px;
+    font-size: 21px;
+    line-height: 24px;
   }
   .textfield-footer-container button:hover{
     color:#F5C843;
     background-color: #000000;
   }
   .copyright-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 112px;
-    justify-content: space-between;
-    margin: auto;
-    margin-top: 48px;
-    border-top: 1px solid #ffffff;
-    align-items: center;
+    height: 96px;
+    margin-top: 42px;
   }
   .copyright-text{
-    font-family: Proxima Nova;
-    font-size: 23px;
-    font-weight: 100;
-    line-height: 28px;
+    font-size: 21px;
+    line-height: 24px;
   }
   .icon-footer{
-    max-width: 37px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    max-width: 33px;
   }
   .icon-social{
-    max-width: 28px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .rotado{
-    transform: rotate(-15deg);
+    max-width: 24px;
   }
   .icons-footer-container{
-    display: flex;
-    flex-direction: row;
-    width: 66px;
-    justify-content: space-between;
+    width: 58px;
   }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
 
-  .footer-links-container a:hover{
-    color: #F5C843;
-    transform: scale(1.02);
-    text-decoration: underline;
-  }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 940px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 220px) {
+
+}

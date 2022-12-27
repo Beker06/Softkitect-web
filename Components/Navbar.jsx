@@ -14,11 +14,9 @@ const Navbar = () => {
     <header>
       <nav className='navbar-container'>
         <ul className={`${navActive ? 'desplegado' : ''} navLinksContainer`}>
-          <div className='logo-container'>
-            <Link href="/">
-              <Image src={LogoHorizontal} alt="softkitec-logo"/>
-            </Link>
-          </div>
+          <Link href="/">
+            <Image className='logo-container' src={LogoHorizontal} alt="softkitec-logo"/>
+          </Link>
           <li><Link href="/" >
             HOME
           </Link></li>
@@ -46,7 +44,6 @@ const Navbar = () => {
             GET STARTED
           </Link></li>
         </ul>
-        <div className="fadebottom"></div>
       </nav>
     </header>
   )

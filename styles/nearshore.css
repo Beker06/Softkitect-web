@@ -38,7 +38,6 @@
     padding: 0px 10px;
 }
 .some-benefits-text{
-
     height: auto;
     margin: 67px auto;
     font-family: Proxima Nova;
@@ -63,7 +62,6 @@
     padding: 107px 0px 69px 0px ;
 }
 .bilingual-title{
-
     max-width: 1400px;
     height: auto;
     font-family: Proxima Nova;
@@ -81,4 +79,69 @@
     font-family: Proxima Nova;
     font-size: 26px;
     font-weight: 900;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1660px) {
+    .nearshore-container{
+        padding-bottom: 52px;
+    }
+    .nearshore-row{
+        font-size: 130px;
+        line-height: 113px;
+        margin-top: 96px;
+        margin-left: 54px;
+    }
+    .nearshore-col{
+        max-width: 564px;
+        margin-right: 70px;
+        margin-left: 21px;
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .some-benefits{
+        padding: 0px 8px;
+    }
+    .some-benefits-text{
+        margin: 58px auto;
+        font-size: 34px;
+        line-height: 33px;
+    }
+    .bilingual-container{
+        padding: 72px 0px 42px 0px ;
+    }
+    .bilingual-title{
+        max-width: 1225px;
+        font-size: 118px;
+        margin-bottom: 53px;
+        margin-left: 16px;
+    }
+    .bilingual-text{
+        max-width: 440px;
+        font-size: 23px;
+        margin-right: 16px;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 940px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 220px) {
+
 }

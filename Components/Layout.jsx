@@ -21,7 +21,7 @@ export default function Layout({ title, children }) {
     checkBoxes();
 
     function checkBoxes(){
-      const triggerBottom = window.innerHeight / 20 * 18;
+      const triggerBottom = window.innerHeight / 40 * 35;
 
       animacion.forEach(box => {
         const boxTop = box.getBoundingClientRect().top;

@@ -74,3 +74,54 @@
     margin-left: 65px;
     text-align: center;
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1660px) {
+    .what-you-get{
+        height: 778px;
+    }
+    .wyg-text{
+        padding: 8.75px 35px;
+        border: 13px solid #020202;
+        font-size: 124px;
+    }
+    .we-address-text{
+        font-size: 23px;
+        line-height: 33px;
+        margin: 52px 84px
+    }
+    .apply-section{
+        padding: 86px 8.75px;
+    }
+    .apply-text{
+        max-width: 1120px;
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: 1.50px;
+        margin-left: 56px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 940px) {
+
+}
+
+@media screen and (max-width: 720px) {
+
+}
+
+@media screen and (max-width: 560px) {
+
+}
+
+@media screen and (max-width: 380px) {
+
+}
+
+@media screen and (max-width: 220px) {
+
+}

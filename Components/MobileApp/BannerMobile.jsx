@@ -9,14 +9,14 @@ const BannerMobile = () => {
         <>
             <div className="mobile-banner">
                 <div className="mobile-banner-row">
-                    <div className="mobile-banner-text-container right">
+                    <div className="mobile-banner-text-container">
                         <div className="about-banner-text2" >movil app</div>
                         <div className="about-banner-text1">development</div>
                     </div>
                 </div>
             </div>
             <div className='some-benefits'>
-                <div className='some-benefits-text disappear' style={{fontSize: "36px"}}>
+                <div className='some-benefits-text disappear'>
                     [ Get a visually stunning & functionally 
                     effective mobile app for Android, iOS or 
                     Windows. ]

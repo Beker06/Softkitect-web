@@ -16,7 +16,7 @@ const Footer = () => {
         <nav className='footer-links-container'>
           <div className='footer-logo-container'>
             <Link href="/">
-              <Image src={LogoHorizontal} alt="softkitec-logo" />
+              <Image src={LogoHorizontal} alt="softkitec-logo2" />
             </Link>
           </div>
           <Link href="/" className="inactive">

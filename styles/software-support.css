@@ -7,7 +7,6 @@
     padding-top: 157px;
     padding-bottom: 157px;
     padding-inline-end: 200px;
-    
 }
 .software-support-row{
     display: flex;
@@ -19,7 +18,7 @@
 .software-support-title{
     display: flex;
     flex-direction: row;
-    width: 1649px;
+    max-width: 1649px;
     height: auto;
     font-family: Proxima Nova;
     font-weight: 900;
@@ -83,4 +82,64 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1660px) {
+    .software-support-container{
+        padding-top: 138px;
+        padding-bottom: 138px;
+        padding-inline-end: 175px;
+    }
+    .software-support-row{
+        margin-left: 130px;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 130px;
+        margin-bottom: 32px;
+    }
+    .software-support-text{
+        max-width: 544px;
+        font-size: 23px;
+        letter-spacing: 0px;
+        line-height: 34px;
+    }
+    .software-support-laptop{
+        width: 842px;
+        min-width: 437px;
+        margin-top: 215px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 49px auto;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .image-grid{
+        width: 1429px;
+    }
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 940px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 560px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 220px) {
+
 }
