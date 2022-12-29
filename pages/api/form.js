@@ -9,12 +9,15 @@ export default async function handler(req, res) {
             console.log(req.body);
 
             const transporter = nodemailer.createTransport({
-                host: "smtp.gmail.com",
-                port: 587,
-                auth: {
-                    user: "bosc790@gmail.com", // generated ethereal user
-                    pass: "Bosc010629", // generated ethereal password
+                name: "Softkitec-Webpage",
+                host : "smtp.gmail.com",
+                port : 465,
+                secure: true,
+                auth : {
+                    user : "bosc790@gmail.com",
+                    pass : "cakvtjtrmlmmjbnh"
                 },
+                send: true,
             });
 
             console.log(transporter);
@@ -30,11 +33,10 @@ export default async function handler(req, res) {
 
             
             const info = await transporter.sendMail({
-                from: "bosc790@gmail.com",
+                from: email,
                 to: "bosc790@gmail.com",
                 subject: "MESSAGE FROM SOFTKITEC WEBPAGE",
-                text: "Envio este correo de prueba",
-                // text: `Name: ${name}${" "}${lastname}\nPhone number: ${number}\nE-mail: ${email}\nCity: ${city}\nMessage: ${message}`,
+                text: `Name: ${name}${" "}${lastname}\nPhone number: ${number}\nE-mail: ${email}\nCity: ${city}\nMessage: ${message}`,
             });
 
             console.log("Message sent: %s", info.messageId);

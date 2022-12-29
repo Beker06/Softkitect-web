@@ -59,11 +59,11 @@ ul{
   overflow-y: scroll;
 }
 .right{
-  transform: translateX(-400%);
+  transform: translateX(-200%);
   transition: transform 0.6s ease;
 }
 .left{
-  transform: translateX(400%);
+  transform: translateX(200%);
   transition: transform 0.6s ease;
 }
 .left.show{
