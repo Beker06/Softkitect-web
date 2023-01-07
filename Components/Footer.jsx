@@ -67,11 +67,11 @@ const Footer = () => {
         </div>
         <div className='copyright-container'>
           <div className='copyright-text'>
-            Copyright Sofkitect 2022
+            Copyright Sofkitect © 2023
           </div>
           <div className='icons-footer-container'>
-            <Image className="icon-social" src={FaLogo} alt="facebook-ico"/>
-            <Image className="icon-social" src={InLogo} alt="linkedin-ico"/>
+            <Link href="https://www.facebook.com/Softkitect" target="_blank"><Image className="icon-social" src={FaLogo} alt="facebook-ico" /></Link>
+            <Link href="https://www.linkedin.com/Softkitect" target="_blank"><Image className="icon-social" src={InLogo} alt="linkedin-ico"/></Link>
           </div>
         </div>
       </footer>
