@@ -1,4 +1,8 @@
 .navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color:  rgba(0, 0, 0, 0.75);
     width: 100%;
     height: auto;
@@ -7,17 +11,30 @@
     position: fixed;
     z-index: 10;
 }
+.icon-bars{
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
 .navLinksContainer {
     display: flex;
+    width: 90vw;
     height: 128px;
     align-items: center;
     justify-content: space-around;
     column-gap: 8px;
+    float: right;
 }
 .logo-container {
     display: flex;
-    width: 12.5vw;
+    width: 15vw;
     height: auto;
+}
+.logo-container .logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
 }
 .navLinksContainer li{
     display: flex;
@@ -26,6 +43,7 @@
     height: 100%;
     align-items: center;
     text-align: left;
+    transition: 0.3s ease;
 }
 .navLinksContainer li a,.navLinksContainer li label {
     position: relative;
@@ -50,7 +68,7 @@
     top: 128px;
     left: 55px;
     width: 125%;
-    background-color: rgba(0, 0, 0, 0.32);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 .submenu-services li{
     justify-content: left;
@@ -93,7 +111,7 @@ ul li .get-started-button{
         column-gap: 7px;
     }
     .logo-container {
-        width: 12vw;
+        width: 15vw;
     }
     .navLinksContainer li a,.navLinksContainer li label {
         font-size: 18px;
@@ -114,23 +132,181 @@ ul li .get-started-button{
 }
 
 @media screen and (max-width: 1280px) {
-
+    .navbar-container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .navLinksContainer {
+        height: 96px;
+        column-gap: 5px;
+    }
+    .logo-container {
+        width: 15vw;
+    }
+    .navLinksContainer li a,.navLinksContainer li label {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1.25px;
+    }
+    .submenu-services{
+        top: 96px;
+        left: 36px;
+        width: 116%;
+    }
+    ul li .get-started-button{
+        max-width: 125px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 12px 9px 12px;
+    }
 }
 
 @media screen and (max-width: 940px) {
+    .navbar-container {
+        justify-content: inherit;
+        background-color: #4e4e4e;
+        width: 100%;
+        height: 100px;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        position: fixed;
+        z-index: 10;
 
+    }
+    .icon-bars{
+        display: flex;
+    }
+    .navLinksContainer {
+        display: block;
+        background-color: #4e4e4e;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        justify-content: inherit;
+        align-items: inherit;
+        column-gap: 0px;
+        top: 100px;
+        left: -100%;
+        transition: all 0.3s;
+        margin: 0;
+        padding: 0px 20px 0px 41px;
+        row-gap: 20px;
+    }
+    .navLinksContainer.desplegado {
+        left: 0;
+    }
+    .logo-container {
+        width: 32vw;
+        margin: 0 auto;
+    }
+    .navLinksContainer li{
+        display: block;
+        justify-content: none;
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+    .navLinksContainer li a,.navLinksContainer li label {
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 116px;
+    }
+    .submenu-services{
+        top: 40%;
+        left: inherit;
+        right: 10%;
+        max-width: 50%;
+        background-color: rgba(0, 0, 0, 0.0);
+        padding: 0px 41px 0px 0px;
+        margin-left: 20px;
+    }
+    .submenu-services li{
+        justify-content: left;
+        width: 100%;
+        height: auto;
+    }
+    .submenu-services li a{
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .navLinksContainer li:hover .submenu-services{
+        display: block;
+    }
+    ul li .get-started-button.desplegado{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 720px) {
 
+    .logo-container {
+        width: 38vw;
+    }
+    .navLinksContainer li a,.navLinksContainer li label {
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 80px;
+    }
+    .submenu-services{
+        top: 30%;
+        max-width: 50%;
+        background-color: rgba(0, 0, 0, 0.0);
+        padding: 0px 0px 0px 0px;
+    }
+    .submenu-services li a{
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
 }
 
 @media screen and (max-width: 560px) {
-
+    .logo-container {
+        width: 48vw;
+    }
+    .navLinksContainer li a,.navLinksContainer li label {
+        font-size: 18px;
+        line-height: 80px;
+    }
+    .submenu-services{
+        top: 30%;
+        right: 5%;
+        max-width: 50%;
+    }
+    .submenu-services li a{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
 }
 
 @media screen and (max-width: 380px) {
+    .navLinksContainer {
 
+        padding: 0px 20px 0px 21px;
+    }
+    .icon-bars{
+        width: 30px;
+        height: 30px;
+    }
+    .logo-container {
+        width: 56vw;
+        margin-left: 20px;
+    }
+    .navLinksContainer li a,.navLinksContainer li label {
+        font-size: 14px;
+        line-height: 60px;
+    }
+    .submenu-services{
+        top: 20%;
+        right: 5%;
+        max-width: 50%;
+    }
+    .submenu-services li a{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 220px) {

@@ -201,10 +201,6 @@
     font-size: 21px;
     line-height: 24px;
   }
-  .textfield-footer-container button:hover{
-    color:#F5C843;
-    background-color: #000000;
-  }
   .copyright-container{
     height: 96px;
     margin-top: 42px;
@@ -225,7 +221,72 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
-
+  .footer-container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .footer-links-container{
+    height: 64px;
+    margin-top: 30px;
+  }
+  .footer-links-container a{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+  .footer-logo-container{
+    width: 16vw;
+  }
+  .content-footer {
+    margin-top: 23px;
+  }
+  .col-footer {
+    max-width: 293px;
+  }
+  .contact-footer-container{
+    max-width: 280px;
+    margin-bottom: 17px;
+  }
+  .contact-footer-container label{
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .textfield-footer-container{
+    margin-top: 117px;
+  }
+  .textfield-footer-container input{
+    width: 232px;
+    height: 43px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 9px;
+  }
+  .textfield-footer-container input:FOCUS{
+    border: 2px solid #F5C843;
+  }
+  .textfield-footer-container button{
+    width: 108px;
+    height: 43px;
+    font-size: 21px;
+    line-height: 24px;
+  }
+  .copyright-container{
+    height: 64px;
+    margin-top: 28px;
+  }
+  .copyright-text{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .icon-footer{
+    max-width: 22px;
+  }
+  .icon-social{
+    max-width: 16px;
+  }
+  .icons-footer-container{
+    width: 38px;
+  }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {

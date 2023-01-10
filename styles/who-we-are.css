@@ -131,23 +131,113 @@
 }
 
 @media screen and (max-width: 1280px) {
-
+    .wwa-info{
+        padding: 22px 33px;
+    }
+    .wwa-title{
+        max-width: 320px ;
+        font-size: 81px;
+    }
+    .wwa-text{
+        max-width: 445px;
+        font-size: 17px;
+    }
+    .features-photo{
+        width: 102px;
+        height: 102px;
+    }
+    .features-card{
+        max-width: 250px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .features-card-title{
+        font-size: 19px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+    .features-card-text{
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
 @media screen and (max-width: 940px) {
-
+    .who-we-are{
+        flex-direction: column-reverse;
+    }
+    .wwa-photo{
+        width: 100%;
+    }
+    .wwa-info{
+        width: 100%;
+        flex-direction: row;
+        float: inherit;
+        padding: 30px 40px;
+    }
+    .wwa-title{
+        max-width: 50% ;
+        font-size: 72px;
+    }
+    .wwa-text{
+        max-width: 45%;
+        font-size: 15px;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 720px) {
-
+    .wwa-info{
+        padding: 20px 50px;
+    }
+    .wwa-title{
+        max-width: 50% ;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .wwa-text{
+        max-width: 50%;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 560px) {
-
+    .wwa-info{
+        padding: 20px 50px;
+    }
+    .wwa-title{
+        max-width: 50% ;
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .wwa-text{
+        max-width: 50%;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 380px) {
 
+    .wwa-info{
+        width: 100%;
+        flex-direction: column;
+        padding: 25px 15px;
+    }
+    .wwa-title{
+        max-width: 100% ;
+        font-size: 42px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .wwa-text{
+        max-width: 100%;
+        font-size: 13px;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 220px) {
