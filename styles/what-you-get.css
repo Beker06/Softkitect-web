@@ -128,19 +128,110 @@
 }
 
 @media screen and (max-width: 940px) {
-
+    .what-you-get{
+        height: 420px;
+    }
+    .wyg-text{
+        padding: 5px 20px;
+        border: 9px solid #020202;
+        font-size: 72px;
+    }
+    .we-address-text{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 30px 48px
+    }
+    .apply-section{
+        padding: 57px 6px;
+    }
+    .apply-text{
+        font-size: 26px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 720px) {
-
+    .what-you-get{
+        height: 340px;
+    }
+    .wyg-text{
+        padding: 5px 14px;
+        border: 7px solid #020202;
+        font-size: 60px;
+    }
+    .we-address-text{
+        font-size: 14px;
+        line-height: 20px;
+        margin: 30px 48px
+    }
+    .apply-section{
+        padding: 40px 4px;
+    }
+    .apply-text{
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-left: 14px;
+    }
 }
 
 @media screen and (max-width: 560px) {
-
+    .what-you-get{
+        height: 250px;
+    }
+    .wyg-text{
+        padding: 5px 14px;
+        border: 7px solid #020202;
+        font-size: 40px;
+    }
+    .we-address-text{
+        font-size: 14px;
+        line-height: 15px;
+        margin: 30px 40px;
+        letter-spacing: 0.25px;
+    }
+    .apply-section{
+        padding: 35px 4px;
+    }
+    .apply-container{
+        flex-direction: column;
+        padding-right: 0;
+        
+    }
+    .apply-text{
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
 }
 
-@media screen and (max-width: 380px) {
-
+@media screen and (max-width: 380px){
+    .what-you-get{
+        height: 180px;
+    }
+    .wyg-text{
+        padding: 5px 10px;
+        border: 4px solid #020202;
+        font-size: 28px;
+    }
+    .we-address-text{
+        font-size: 13px;
+        font-weight: 100;
+        line-height: 14px;
+        margin: 30px 20px;
+        letter-spacing: 0.25px;
+    }
+    .apply-section{
+        padding: 30px 4px;
+    }
+    .apply-text{
+        font-size: 20px;
+        line-height: 18px;
+    }
 }
 
 @media screen and (max-width: 220px) {

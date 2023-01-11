@@ -22,7 +22,7 @@ const WhoWeAre = () => {
           </div>
         </div>
       </div>
-      <div className="advantages-container">
+      <div className="features-container">
         <div className="features-card right">
           <div className='features-photo digital'></div>
           <div className="features-card-title">

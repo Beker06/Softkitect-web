@@ -5,7 +5,8 @@
     height: auto;
     justify-content: space-around;
     padding: 74px 10px;
-}.advantages-card{
+}
+.advantages-card{
     display: flex;
     max-width: 409px;
     height: auto;
@@ -62,19 +63,81 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .advantages-container{
+        padding: 36px 6px;
+    }
+    .advantages-card{
+        max-width: 160px;
+        line-height: 17px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .advantages-card-title{
+        font-size: 16px;
+    }
+    .advantages-card-text{
+        font-size: 13px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .advantages-container{
+        padding: 30px 6px;
+    }
+    .advantages-card{
+        max-width: 110px;
+        line-height: 15px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .advantages-card-title{
+        font-size: 15px;
+    }
+    .advantages-card-text{
+        font-size: 11px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .advantages-container{
+        flex-direction: column;
+        padding: 30px 6px;
+    }
+    .advantages-card{
+        max-width: 100%;
+        line-height: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .advantages-card-title{
+        font-size: 16px;
+    }
+    .advantages-card-text{
+        font-size: 13px;
+        line-height: 15px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .advantages-container{
+        flex-direction: column;
+        padding: 24px 6px;
+    }
+    .advantages-card{
+        max-width: 100%;
+        line-height: 14px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 12px;
+    }
+    .advantages-card-title{
+        font-size: 15px;
+    }
+    .advantages-card-text{
+        font-size: 13px;
+        line-height: 14px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

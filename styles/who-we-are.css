@@ -41,6 +41,14 @@
     letter-spacing: 0px;
     text-align: left;
 }
+.features-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    padding: 74px 10px;
+}
 .features-photo{
     display: flex;
     flex-direction: row;
@@ -110,6 +118,9 @@
         max-width: 665px;
         font-size: 24.5px;
     }
+    .features-container{
+        padding: 64px 10px;
+    }
     .features-photo{
         width: 152px;
         height: 152px;
@@ -141,6 +152,9 @@
     .wwa-text{
         max-width: 445px;
         font-size: 17px;
+    }
+    .features-container{
+        padding: 42px 7px;
     }
     .features-photo{
         width: 102px;
@@ -184,6 +198,27 @@
         font-size: 15px;
         margin-left: 30px;
     }
+    .features-container{
+        padding: 38px 6px;
+    }
+    .features-photo{
+        width: 94px;
+        height: 94px;
+    }
+    .features-card{
+        max-width: 200px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .features-card-title{
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: 24px;
+    }
+    .features-card-text{
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -201,9 +236,34 @@
         max-width: 50%;
         margin-left: 20px;
     }
+    .features-container{
+        padding: 32px 5px;
+    }
+    .features-photo{
+        width: 82px;
+        height: 82px;
+    }
+    .features-card{
+        max-width: 155px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .features-card-title{
+        font-size: 16px;
+        line-height: 14px;
+        margin-top: 20px;
+    }
+    .features-card-text{
+        font-size: 13px;
+        line-height: 14px;
+    }
 }
 
 @media screen and (max-width: 560px) {
+    .advantages-container{
+        display: flex;
+        flex-direction: column;
+    }
     .wwa-info{
         padding: 20px 50px;
     }
@@ -217,6 +277,30 @@
     .wwa-text{
         max-width: 50%;
         margin-left: 20px;
+    }
+    .features-container{
+        flex-direction: column;
+        padding: 28px 50px;
+    }
+    .features-photo{
+        width: 96px;
+        height: 96px;
+    }
+    .features-card{
+        max-width: 300px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 20px;
+    }
+    .features-card-title{
+        font-size: 19px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .features-card-text{
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
     }
 }
 
@@ -237,6 +321,29 @@
         max-width: 100%;
         font-size: 13px;
         margin-left: 0px;
+    }
+    .features-container{
+        flex-direction: column;
+        padding: 28px 30px;
+    }
+    .features-photo{
+
+    }
+    .features-card{
+        max-width: 300px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 20px;
+    }
+    .features-card-title{
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 18px;
+    }
+    .features-card-text{
+        text-align: center;
+        font-size: 14px;
+        line-height: 12px;
     }
 }
 
