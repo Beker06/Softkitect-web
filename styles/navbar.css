@@ -187,7 +187,7 @@ ul li .get-started-button{
         align-items: inherit;
         column-gap: 0px;
         top: 100px;
-        left: -100%;
+        left: -300%;
         transition: all 0.3s;
         margin: 0;
         padding: 0px 20px 0px 41px;
@@ -202,8 +202,8 @@ ul li .get-started-button{
     }
     .navLinksContainer li{
         display: block;
-        justify-content: none;
-        width: 100%;
+        justify-content: inherit;
+        width: 30%;
         height: auto;
         text-align: left;
     }
@@ -214,16 +214,15 @@ ul li .get-started-button{
     }
     .submenu-services{
         top: 40%;
-        left: inherit;
-        right: 10%;
-        max-width: 50%;
+        left: 0%;
+        max-width: 200%;
         background-color: rgba(0, 0, 0, 0.0);
         padding: 0px 41px 0px 0px;
-        margin-left: 20px;
+        margin-left: 100%;
     }
     .submenu-services li{
         justify-content: left;
-        width: 100%;
+        width: 125%;
         height: auto;
     }
     .submenu-services li a{
@@ -242,6 +241,9 @@ ul li .get-started-button{
     .logo-container {
         width: 38vw;
     }
+    .navLinksContainer li{
+        width: 35%;
+    }
     .navLinksContainer li a,.navLinksContainer li label {
         font-size: 20px;
         font-weight: 100;
@@ -249,9 +251,10 @@ ul li .get-started-button{
     }
     .submenu-services{
         top: 30%;
-        max-width: 50%;
+        max-width: 80%;
         background-color: rgba(0, 0, 0, 0.0);
         padding: 0px 0px 0px 0px;
+        margin-left: 120%;
     }
     .submenu-services li a{
         line-height: 20px;
@@ -259,9 +262,15 @@ ul li .get-started-button{
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 561px) {
+    .navLinksContainer {
+        padding: 0px 20px 0px 15px;
+    }
     .logo-container {
         width: 48vw;
+    }
+    .navLinksContainer li{
+        width: 45%;
     }
     .navLinksContainer li a,.navLinksContainer li label {
         font-size: 18px;
@@ -271,6 +280,7 @@ ul li .get-started-button{
         top: 30%;
         right: 5%;
         max-width: 50%;
+        margin-left: 100%;
     }
     .submenu-services li a{
         font-size: 18px;
@@ -288,6 +298,9 @@ ul li .get-started-button{
         padding: 0px 20px 0px 21px;
         top: 70px;
     }
+    .navLinksContainer li{
+        width: 50%;
+    }
     .icon-bars{
         width: 20px;
         height: 20px;
@@ -304,6 +317,7 @@ ul li .get-started-button{
         top: 20%;
         right: 5%;
         max-width: 50%;
+        margin-left: 100%;
     }
     .submenu-services li a{
         font-size: 14px;

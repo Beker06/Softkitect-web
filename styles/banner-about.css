@@ -25,6 +25,7 @@
     font-weight: 900;
 }
 .about-banner-text1{
+    width: 100%;
     font-size: 102px;
     text-align: left;
     color: #fff;
@@ -109,24 +110,166 @@
     }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 1280px) {
-
+@media screen and (max-width: 1281px) {
+    .about-banner-row{
+        margin-top: 485px;
+        margin-bottom: 64px;
+    }
+    .about-banner-text-container{
+        max-width: 720px;
+        margin-left: 38px;
+    }
+    .about-banner-text1{
+        font-size: 66px;
+    }
+    .about-banner-text2{
+        font-size: 101px;
+        margin-top: -20px;
+    }
+    .about-banner-text3{
+        font-size: 66px;
+        margin-top: -20px;
+    }
+    .about-banner-text4{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    .softkitec-team-text{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 20px 65px
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .about-banner{
+        background-attachment: inherit;
+    }
+    .about-banner-row{
+        margin-top: 365px;
+        margin-bottom: 48px;
+    }
+    .about-banner-text-container{
+        max-width: 465px;
+        margin-left: 28px;
+    }
+    .about-banner-text1{
+        font-size: 44px;
+    }
+    .about-banner-text2{
+        font-size: 75px;
+        margin-top: -12px;
+    }
+    .about-banner-text3{
+        font-size: 54px;
+        margin-top: -16px;
+    }
+    .about-banner-text4{
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    .softkitec-team-text{
+        font-size: 18px;
+        line-height: 18px;
+        margin: 22px 45px
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .about-banner-row{
+        margin-top: 265px;
+        margin-bottom: 36px;
+    }
+    .about-banner-text-container{
+        max-width: 70%;
+        margin-left: 28px;
+    }
+    .about-banner-text1{
+        font-size: 40px;
+    }
+    .about-banner-text2{
+        font-size: 56px;
+        margin-top: -10px;
+    }
+    .about-banner-text3{
+        font-size: 40px;
+        margin-top: -12px;
+        margin-left: 3px;
+    }
+    .about-banner-text4{
+        font-size: 16px;
+        margin-left: 6px;
+    }
+    .softkitec-team-text{
+        font-size: 16px;
+        line-height: 18px;
+        margin: 22px 35px
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .about-banner-row{
+        margin-top: 265px;
+        margin-bottom: 36px;
+    }
+    .about-banner-text-container{
+        max-width: 80%;
+        margin-left: 28px;
+    }
+    .about-banner-text1{
+        font-size: 28px;
+    }
+    .about-banner-text2{
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    .about-banner-text3{
+        font-size: 28px;
+        margin-top: -6px;
+        margin-left: 3px;
+    }
+    .about-banner-text4{
+        font-size: 14px;
+        margin-left: 4px;
+    }
+    .softkitec-team-text{
+        font-size: 16px;
+        line-height: 17px;
+        margin: 18px 30px
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .about-banner-row{
+        margin-top: 165px;
+        margin-bottom: 18px;
+    }
+    .about-banner-text-container{
+        max-width: 100%;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .about-banner-text1{
+        font-size: 20px;
+    }
+    .about-banner-text2{
+        font-size: 30px;
+        margin-top: -5px;
+    }
+    .about-banner-text3{
+        font-size: 20px;
+        margin-top: -6px;
+        margin-left: 3px;
+    }
+    .about-banner-text4{
+        font-size: 11px;
+        margin-left: 4px;
+    }
+    .softkitec-team-text{
+        font-size: 12px;
+        line-height: 13px;
+        margin: 14px 14px
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

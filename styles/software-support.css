@@ -121,23 +121,183 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
-
+    .software-support-container{
+        padding-top: 88px;
+        padding-bottom: 88px;
+        padding-inline-end: 95px;
+    }
+    .software-support-row{
+        margin-left: 70px;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 72px;
+        margin-bottom: 28px;
+    }
+    .software-support-text{
+        max-width: 544px;
+        font-size: 21px;
+        letter-spacing: 0px;
+        line-height: 28px;
+    }
+    .software-support-laptop{
+        width: 842px;
+        min-width: 437px;
+        margin-top: 75px;
+        margin-left: 20px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 40px auto;
+        font-size: 28px;
+        line-height: 28px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .software-support-container{
+        padding-top: 68px;
+        padding-bottom: 68px;
+        padding-inline-end: 0px;
+    }
+    .software-support-row{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 62px;
+        margin-bottom: 28px;
+        margin-left: 50px;
+    }
+    .software-support-text{
+        max-width: 100%;
+        font-size: 21px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        margin-left: 50px;
+        margin-right: 55px;
+    }
+    .software-support-laptop{
+        width: 100%;
+        min-width: inherit;
+        margin: auto;
+        margin-top: 75px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 40px auto;
+        font-size: 26px;
+        line-height: 26px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .software-support-container{
+        padding-top: 68px;
+        padding-bottom: 68px;
+        padding-inline-end: 0px;
+    }
+    .software-support-row{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 62px;
+        margin-bottom: 28px;
+        margin-left: 40px;
+    }
+    .software-support-text{
+        max-width: 100%;
+        font-size: 19px;
+        letter-spacing: 0px;
+        line-height: 23px;
+        margin-left: 40px;
+        margin-right: 45px;
+    }
+    .software-support-laptop{
+        width: 100%;
+        min-width: inherit;
+        margin: auto;
+        margin-top: 75px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 32px auto;
+        font-size: 22px;
+        line-height: 24px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .software-support-container{
+        padding-top: 38px;
+        padding-bottom: 38px;
+        padding-inline-end: 0px;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 48px;
+        margin-bottom: 28px;
+        margin-left: 30px;
+    }
+    .software-support-text{
+        max-width: 100%;
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 21px;
+        margin-left: 30px;
+        margin-right: 25px;
+        font-weight: 100;
+    }
+    .software-support-laptop{
+        width: 100%;
+        min-width: inherit;
+        margin: auto;
+        margin-top: 55px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 28px auto;
+        font-size: 19px;
+        line-height: 22px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .software-support-container{
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-inline-end: 0px;
+    }
+    .software-support-title{
+        max-width: 1442px;
+        font-size: 32px;
+        margin-bottom: 18px;
+        margin-left: 15px;
+    }
+    .software-support-text{
+        max-width: 100%;
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-weight: 100;
+    }
+    .software-support-laptop{
+        width: 100%;
+        min-width: inherit;
+        margin: auto;
+        margin-top: 35px;
+    }
+    .get-visually{
+        max-width: 1124px;
+        margin: 18px 8px;
+        font-size: 17px;
+        line-height: 20px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

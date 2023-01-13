@@ -79,6 +79,7 @@
   line-height: 29px;
   padding-left: 16px;
   outline: none;
+  border-radius: 2px 0px 0px 2px ;
 }
 .textfield-footer-container input:FOCUS{
   border: 3px solid #F5C843;
@@ -99,6 +100,7 @@
   border: 1px solid #F5C843;
   cursor: pointer;
   background-color: #F5C843;
+  border-radius: 0px 2px 2px 0px ;
 }
 .textfield-footer-container button:hover{
   color:#F5C843;
@@ -267,7 +269,7 @@
   .textfield-footer-container button{
     width: 108px;
     height: 43px;
-    font-size: 21px;
+    font-size: 17px;
     line-height: 24px;
   }
   .copyright-container{
@@ -548,7 +550,7 @@
     font-weight: 100;
     line-height: 20px;
     padding-left: 10px;
-    border-radius: 2px 0px 0px 2px ;
+
   }
   .textfield-footer-container button{
     width: 70px;
@@ -556,7 +558,6 @@
     font-size: 14px;
     font-weight: 100;
     line-height: 0px;
-    border-radius: 0px 2px 2px 0px ;
   }
   .copyright-container{
     height: 50px;
