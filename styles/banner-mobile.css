@@ -218,7 +218,7 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
     .mobile-banner-row{
-        margin-top: 265px;
+        margin-top: 305px;
         margin-bottom: 36px;
     }
     .mobile-banner-text-container{
@@ -226,7 +226,7 @@
         margin-left: 28px;
     }
     .mobile-banner-text1{
-        font-size: 40px;
+        font-size: 48px;
     }
     .mobile-banner-text2{
         font-size: 28px;
@@ -255,7 +255,7 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
     .mobile-banner-row{
-        margin-top: 165px;
+        margin-top: 245px;
         margin-bottom: 18px;
     }
     .mobile-banner-text-container{
@@ -263,10 +263,10 @@
         margin-left: 14px;
     }
     .mobile-banner-text1{
-        font-size: 28px;
+        font-size: 32px;
     }
     .mobile-banner-text2{
-        font-size: 18px;
+        font-size: 21px;
     }
     .customers-needs{
         padding: 0px 15px 0px 25px;

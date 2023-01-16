@@ -52,7 +52,7 @@
     height: auto;
     bottom: 0px;
     right: 0px;
-    z-index: 2;
+    z-index: 4;
 }
 .appointment{
     display: flex;
@@ -106,22 +106,144 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
 
+    .web-col{
+        margin: 46px 0px 82px 40px;
+    }
+    .web-title{
+        font-size: 96px;
+        width: 150%;
+    }
+    .web-text{
+        max-width: 625px;
+        font-size: 19px;
+        line-height: 24px;
+        margin-top: 29px;
+    }
+    .web-photo-container{
+        margin-top: 105px;
+    }
+    .web-photo{
+        width: 50%;
+    }
+    .appointment-text{
+        margin: 42px auto;
+        font-size: 35px;
+        line-height: 33px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .web-row{
+        flex-direction: column;
+    }
+    .web-col{
+        margin: 30px 0px 382px 30px;
+        width: inherit;
+        max-width: 100%;
+        padding: 0px 40px 0px 0px;
+    }
+    .web-title{
+        font-size: 96px;
+        width: 100%;
+    }
+    .web-text{
+        max-width: 100%;
+        font-size: 19px;
+        line-height: 24px;
+        margin-top: 29px;
+    }
+    .web-photo-container{
+        margin-top: 105px;
+    }
+    .web-photo{
+        width: 50%;
+    }
+    .appointment-text{
+        margin: 42px auto;
+        font-size: 30px;
+        line-height: 33px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .web-col{
+        margin: 30px 0px 422px 30px;
+        padding: 0px 50px 0px 0px;
+    }
+    .web-title{
+        font-size: 75px;
+    }
+    .web-text{
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: 29px;
+    }
+    .web-photo-container{
+        margin-top: 105px;
+    }
+    .web-photo{
+        width: 72%;
+    }
+    .appointment-text{
+        margin: 38px auto;
+        font-size: 28px;
+        line-height: 33px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .web-col{
+        margin: 30px 0px 372px 30px;
+        padding: 0px 50px 0px 0px;
+    }
+    .web-title{
+        font-size: 56px;
+    }
+    .web-text{
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 14px;
+    }
+    .web-photo-container{
+        margin-top: 105px;
+    }
+    .web-photo{
+        width: 82%;
+    }
+    .appointment-text{
+        margin: 30px auto;
+        font-size: 28px;
+        line-height: 28px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .web-col{
+        margin: 25px 0px 272px 20px;
+        padding: 0px 30px 0px 0px;
+    }
+    .web-title{
+        font-size: 48px;
+    }
+    .web-text{
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 14px;
+    }
+    .web-photo-container{
+        margin-top: 105px;
+    }
+    .web-photo{
+        width: 90%;
+    }
+    .appointment-text{
+        margin: 30px auto;
+        font-size: 28px;
+        line-height: 28px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {
