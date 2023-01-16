@@ -75,23 +75,123 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
-
+    .tech-banner-row{
+        margin-top: 525px;
+        margin-bottom: 75px;
+    }
+    .tech-banner-text-container{
+        margin-left: 8%;
+        margin-right: 10%;
+    }
+    .tech-banner-text1{
+        font-size: 125px;
+        line-height: 110px;
+    }
+    .tech-banner-text2{
+        max-width: 812px;
+        font-size: 30px;
+        margin-left: 9px;
+        margin-top: 10px;
+        line-height: 29px;
+        letter-spacing: 1.2px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .tech-banner{
+        background-attachment: inherit;
+    }
+    .tech-banner-row{
+        margin-top: 445px;
+        margin-bottom: 75px;
+    }
+    .tech-banner-text-container{
+        margin-left: 6%;
+        margin-right: 8%;
+    }
+    .tech-banner-text1{
+        font-size: 90px;
+        line-height: 82px;
+    }
+    .tech-banner-text2{
+        font-size: 26px;
+        margin-left: 9px;
+        margin-top: 10px;
+        line-height: 26px;
+        letter-spacing: 0.8px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .tech-banner-row{
+        margin-top: 405px;
+        margin-bottom: 60px;
+    }
+    .tech-banner-text-container{
+        margin-left: 6%;
+        margin-right: 8%;
+    }
+    .tech-banner-text1{
+        font-size: 78px;
+        line-height:66px;
+    }
+    .tech-banner-text2{
+        font-size: 24px;
+        margin-left: 9px;
+        margin-top: 10px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .tech-banner{
+        background-position: 40%;
+    }
+    .tech-banner-row{
+        margin-top: 405px;
+        margin-bottom: 60px;
+    }
+    .tech-banner-text-container{
+        margin-left: 6%;
+        margin-right: 8%;
+    }
+    .tech-banner-text1{
+        font-size: 54px;
+        line-height:45px;
+    }
+    .tech-banner-text2{
+        font-size: 24px;
+        margin-left: 9px;
+        margin-top: 10px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .tech-banner{
+        background-position: 40%;
+    }
+    .tech-banner-row{
+        margin-top: 375px;
+        margin-bottom: 40px;
+    }
+    .tech-banner-text-container{
+        margin-left: 6%;
+        margin-right: 8%;
+    }
+    .tech-banner-text1{
+        font-size: 40px;
+        line-height:36px;
+    }
+    .tech-banner-text2{
+        font-size: 21px;
+        margin-left: 9px;
+        margin-top: 10px;
+        line-height: 19px;
+        letter-spacing: 0.5px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

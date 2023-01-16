@@ -101,23 +101,211 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
-
+    .end-tech-banner-row{
+        margin-top: 564px;
+        margin-bottom: 95px;
+        flex-direction: column;
+    }
+    .end-tech-banner-text-container{
+        max-width: 1000px;
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+    .end-tech-banner-text1{
+        font-size: 92px;
+        line-height: 80px;
+    }
+    .end-tech-banner-text2{
+        font-size: 128px;
+        margin-top: -30px;
+        margin-left: 0px;
+        line-height: 160px;
+    }
+    .end-tech-banner-text3{
+        font-size: 102px;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .end-tech-banner-text4{
+        font-size: 24px;
+        margin-left: 16px;
+        margin-right: 22px;
+    }
+    .end-tech-banner-info{
+        max-width: 95%;
+        margin: 0px 40px;
+    }
+    .black-rectangle{
+        height: 9vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .end-tech-banner-row{
+        margin-top: 364px;
+        margin-bottom: 65px;
+        flex-direction: column;
+    }
+    .end-tech-banner-text-container{
+        max-width: 1000px;
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+    .end-tech-banner-text1{
+        font-size: 92px;
+        line-height: 80px;
+    }
+    .end-tech-banner-text2{
+        font-size: 128px;
+        margin-top: -30px;
+        margin-left: 0px;
+        line-height: 160px;
+    }
+    .end-tech-banner-text3{
+        font-size: 102px;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .end-tech-banner-text4{
+        font-size: 24px;
+        margin-left: 16px;
+        margin-right: 22px;
+    }
+    .end-tech-banner-info{
+        max-width: 95%;
+        margin: 0px 40px;
+    }
+    .black-rectangle{
+        height: 9vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .end-tech-banner-row{
+        margin-top: 294px;
+        margin-bottom: 65px;
+        flex-direction: column;
+    }
+    .end-tech-banner-text-container{
+        max-width: 1000px;
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+    .end-tech-banner-text1{
+        font-size: 64px;
+        line-height: 60px;
+    }
+    .end-tech-banner-text2{
+        font-size: 95px;
+        margin-top: -30px;
+        margin-left: 0px;
+        line-height: 130px;
+    }
+    .end-tech-banner-text3{
+        font-size: 64px;
+        margin-top: -35px;
+        margin-left: 0px;
+    }
+    .end-tech-banner-text4{
+        font-size: 21px;
+        margin-left: 16px;
+        margin-right: 22px;
+    }
+    .end-tech-banner-info{
+        max-width: 85%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .black-rectangle{
+        height: 9vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .end-tech-banner{
+        background-position: 60%;
+    }
+    .end-tech-banner-row{
+        margin-top: 294px;
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+    .end-tech-banner-text-container{
+        max-width: 1000px;
+        margin-left: 44px;
+        margin-right: 44px;
+    }
+    .end-tech-banner-text1{
+        font-size: 44px;
+        line-height: 36px;
+    }
+    .end-tech-banner-text2{
+        font-size: 65px;
+        margin-top: 0px;
+        margin-left: 0px;
+        line-height: 50px;
+    }
+    .end-tech-banner-text3{
+        font-size: 44px;
+        margin-top: -8px;
+        margin-left: 0px;
+    }
+    .end-tech-banner-text4{
+        font-size: 16px;
+        margin-left: 16px;
+        margin-right: 22px;
+    }
+    .end-tech-banner-info{
+        max-width: 85%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .black-rectangle{
+        height: 7vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .end-tech-banner{
+        background-position: 55%;
+    }
+    .end-tech-banner-row{
+        margin-top: 164px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .end-tech-banner-text-container{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .end-tech-banner-text1{
+        font-size: 36px;
+        line-height: 28px;
+    }
+    .end-tech-banner-text2{
+        font-size: 48px;
+        margin-top: 0px;
+        margin-left: 0px;
+        line-height: 36px;
+    }
+    .end-tech-banner-text3{
+        font-size: 36px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .end-tech-banner-text4{
+        font-size: 16px;
+        margin-left: 16px;
+        margin-right: 22px;
+    }
+    .end-tech-banner-info{
+        max-width: 95%;
+        margin-left: 10px;
+        margin-right: 34px;
+    }
+    .black-rectangle{
+        height: 7vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

@@ -158,23 +158,287 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
-
+    .surfer-container{
+        padding: 0px 40px 88px 60px;
+    }
+    .surfer-col{
+        max-width: 250px;
+    }
+    .col-one{
+        margin-top: 30px;
+    }
+    .col-two{
+        margin-top: 225px;
+    }
+    .surfer-card{
+        margin-top: 40px;
+    }
+    .iconOne{
+        max-width: 88px;
+        margin-bottom: 32px;
+        margin-left: 26px;
+    }
+    .iconTwo{
+        max-width: 91px;
+        margin-bottom: 50px;
+    }
+    .iconThree{
+        max-width: 113px;
+        margin-bottom: 42px;
+    }
+    .iconFour{
+        max-width: 118px;
+        margin-bottom: 48px;
+    }
+    .surfer-title{
+        font-size: 32px;
+        line-height: 26px;
+    }
+    .surfer-text{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .surfer-photo{
+        position: absolute;
+        width: 40vw;
+        top: 32vh;
+        left: 32vw;
+    }
+    .line{
+        width: 8.5vw;
+    }
+    .line-pink{
+        right: -5vw;
+        top: 2vh;
+    }
+    .line-blue{
+        right: 1vw;
+    }
+    .line-orange{
+        right: 8vw;
+        top: -8vh;
+    }
+    .line-green{
+        left: -12vw;
+        top: -6vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 940px) {
-
+    .surfer-container{
+        padding: 0px 20px 68px 40px;
+    }
+    .surfer-col{
+        max-width: 180px;
+    }
+    .col-one{
+        margin-top: 10px;
+    }
+    .col-two{
+        margin-top: 195px;
+    }
+    .surfer-card{
+        margin-top: 40px;
+    }
+    .iconOne{
+        max-width: 88px;
+        margin-bottom: 32px;
+        margin-left: 26px;
+    }
+    .iconTwo{
+        max-width: 91px;
+        margin-bottom: 50px;
+    }
+    .iconThree{
+        max-width: 113px;
+        margin-bottom: 42px;
+    }
+    .iconFour{
+        max-width: 118px;
+        margin-bottom: 48px;
+    }
+    .surfer-title{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .surfer-text{
+        font-size: 19px;
+        line-height: 21px;
+        font-weight: 100;
+    }
+    .surfer-photo{
+        position: absolute;
+        width: 40vw;
+        top: 40vh;
+        left: 32vw;
+    }
+    .line{
+        width: 8.5vw;
+    }
+    .line-pink{
+        right: -5vw;
+        top: 2vh;
+    }
+    .line-blue{
+        right: 1vw;
+    }
+    .line-orange{
+        right: 8vw;
+        top: -8vh;
+    }
+    .line-green{
+        left: -12vw;
+        top: -6vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 720px) {
-
+    .surfer-container{
+        padding: 0px 20px 58px 20px;
+    }
+    .surfer-col{
+        max-width: 150px;
+    }
+    .col-one{
+        margin-top: 10px;
+    }
+    .col-two{
+        margin-top: 195px;
+    }
+    .surfer-card{
+        margin-top: 40px;
+    }
+    .iconOne{
+        max-width: 68px;
+        margin-bottom: 18px;
+        margin-left: 20px;
+    }
+    .iconTwo{
+        max-width: 71px;
+        margin-bottom: 30px;
+    }
+    .iconThree{
+        max-width: 93px;
+        margin-bottom: 22px;
+    }
+    .iconFour{
+        max-width: 98px;
+        margin-bottom: 28px;
+    }
+    .surfer-title{
+        font-size: 23px;
+        line-height: 23px;
+    }
+    .surfer-text{
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 100;
+    }
+    .surfer-photo{
+        position: absolute;
+        width: 40vw;
+        top: 40vh;
+        left: 32vw;
+    }
+    .line{
+        width: 10.5vw;
+    }
+    .line-pink{
+        right: -5vw;
+        top: 2vh;
+    }
+    .line-blue{
+        right: 1vw;
+    }
+    .line-orange{
+        right: 8vw;
+        top: -8vh;
+    }
+    .line-green{
+        left: -12vw;
+        top: -6vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
-
+    .surfer-container{
+        flex-direction: column;
+    }
+    .surfer-container{
+        padding: 0px 40px 58px 40px;
+    }
+    .surfer-col{
+        max-width: 100%;
+    }
+    .col-one{
+        margin-top: 10px;
+    }
+    .col-two{
+        margin-top: 0px;
+    }
+    .surfer-card{
+        margin-top: 40px;
+    }
+    .iconOne{
+        max-width: 88px;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .iconTwo{
+        max-width: 71px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .iconThree{
+        max-width: 93px;
+        margin: auto;
+        margin-bottom: 22px;
+    }
+    .iconFour{
+        max-width: 98px;
+        margin: auto;
+        margin-bottom: 28px;
+    }
+    .surfer-title{
+        font-size: 23px;
+        line-height: 28px;
+    }
+    .surfer-text{
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 100;
+    }
+    .surfer-photo{
+        position: inherit;
+        display: flex;
+        width: 90vw;
+        top: inherit;
+        left: inherit;
+    }
+    .line{
+        display: none;
+    }
+    .line-pink{
+        right: -5vw;
+        top: 2vh;
+    }
+    .line-blue{
+        right: 1vw;
+    }
+    .line-orange{
+        right: 8vw;
+        top: -8vh;
+    }
+    .line-green{
+        left: -12vw;
+        top: -6vh;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
-
+    .surfer-container{
+        padding: 0px 30px 58px 20px;
+    }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {

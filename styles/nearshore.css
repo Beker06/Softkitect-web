@@ -143,9 +143,9 @@
         padding: 0px 8px;
     }
     .some-benefits-text{
-        margin: 50px auto;
-        font-size: 30px;
-        line-height: 30px;
+        margin: 46px auto !important;
+        font-size: 32px !important;
+        line-height: 30px !important;
     }
     .bilingual-container{
         padding: 62px 0px 36px 0px ;
@@ -186,9 +186,9 @@
         padding: 0px 16px;
     }
     .some-benefits-text{
-        margin: 30px auto;
-        font-size: 30px;
-        line-height: 30px;
+        margin: 30px auto !important;
+        font-size: 29px !important;
+        line-height: 27px !important;
     }
     .bilingual-container{
         padding: 62px 0px 36px 0px ;
@@ -229,9 +229,9 @@
         padding: 0px 16px;
     }
     .some-benefits-text{
-        margin: 30px auto;
-        font-size: 26px;
-        line-height: 26px;
+        margin: 28px auto !important;
+        font-size: 26px !important;
+        line-height: 24px !important;
     }
     .bilingual-container{
         padding: 36px 0px 8px 0px ;
@@ -274,9 +274,9 @@
         padding: 0px 12px;
     }
     .some-benefits-text{
-        margin: 22px auto;
-        font-size: 22px;
-        line-height: 22px;
+        margin: 22px auto !important;
+        font-size: 22px !important;
+        line-height: 21px !important;
     }
     .bilingual-container{
         padding: 36px 0px 8px 0px ;
@@ -321,9 +321,9 @@
         padding: 0px 8px;
     }
     .some-benefits-text{
-        margin: 16px auto;
-        font-size: 18px;
-        line-height: 20px;
+        margin: 16px auto !important;
+        font-size: 18px !important;
+        line-height: 15px !important;
     }
     .bilingual-container{
         padding: 20px 0px 0px 0px ;
