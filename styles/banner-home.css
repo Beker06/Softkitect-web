@@ -261,7 +261,7 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 560px) {
     .home-banner{
-        height: 70vh;
+        height: auto;
         background-position: left;
     }
     .home-banner-row{
@@ -312,8 +312,7 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 380px) {
     .home-banner{
-        height: 70vh;
-        background-position: left;
+        background-position: 15%;
     }
     .home-banner-row{
         flex-direction: column;
@@ -358,9 +357,6 @@
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 220px) {
-    .home-banner{
-        height: 80vh;
-    }
     .home-banner-buttons{
         width: 100%; 
         margin: 0;
