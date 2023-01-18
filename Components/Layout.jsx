@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import Footer from "./Footer";
+import MessengerP from "./MessengerP";
 import Navbar from "./Navbar";
 
 
@@ -68,6 +69,7 @@ export default function Layout({ title, children }) {
       </Head>
       <div className="layout-container">
         <Navbar/>
+        <MessengerP/>
         <main className="layout-content">{children}</main>
         <Footer/>
       </div>

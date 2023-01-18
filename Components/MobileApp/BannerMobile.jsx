@@ -10,7 +10,7 @@ const BannerMobile = () => {
             <div className="mobile-banner">
                 <div className="mobile-banner-row">
                     <div className="mobile-banner-text-container">
-                        <div className="mobile-banner-text1" >movil app</div>
+                        <div className="mobile-banner-text1" >mobile app</div>
                         <div className="mobile-banner-text2">development</div>
                     </div>
                 </div>

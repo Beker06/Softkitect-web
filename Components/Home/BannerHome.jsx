@@ -18,7 +18,7 @@ const bannerHome = () => {
                     </div>
                     <div  className="home-banner-buttons left">
                         <Link href="/tech-specialist#contact"><button className="button-banner">Contact us</button></Link>
-                        <Link href="/tech-specialist#contact"><button className="button-banner">How we work</button></Link>
+                        <Link href="/#hww"><button className="button-banner">How we work</button></Link>
                     </div>
                 </div>
             </div>

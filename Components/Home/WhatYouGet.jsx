@@ -24,7 +24,7 @@ const WhatYouGet = () => {
             </div>
           </div>
           <Image className="we-address-photo disappear" src={WeAddress} alt="we-address"></Image>
-          <div className="apply-section">
+          <div id='teamworks' className="apply-section">
             <div className="apply-container">
               <div className="apply-text right"> 
               [ Apply for our custom software development services now. ]

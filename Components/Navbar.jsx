@@ -29,8 +29,7 @@ const Navbar = () => {
             <ul className='submenu-services'>
               <li><Link href="/custom-software-development">CUSTOM SOFTWARE DEVELOPMENT SERVICES</Link></li>
               <li><Link href="/mobile-app">MOBILE APP DEVELOPMENT</Link></li>
-              <li><Link href="/">IT CONSULTING</Link></li>
-              <li><Link href="/">QA AND TESTING SERVICES</Link></li>
+              <li><Link href="/tech-specialist">IT CONSULTING</Link></li>
               <li><Link href="custom-software-development#software-support">SOFTWARE SUPPORT</Link></li>
               <li><Link href="/mobile-app#web-development">WEB DEVELOPMENT</Link></li>
             </ul>
@@ -38,7 +37,7 @@ const Navbar = () => {
           <li><Link href="/#about-us" >
             ABOUT US
           </Link></li>
-          <li><Link href="/tech-specialist" >
+          <li><Link href="/#teamworks" >
             IT TEAMWORKS
           </Link></li>
           <li><Link href="/tech-specialist#contact" >

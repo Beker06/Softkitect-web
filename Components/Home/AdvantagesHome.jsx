@@ -32,7 +32,7 @@ const AdvantagesHome = () => {
           <div className="advantages-card-title">
             A culture of stability
           </div>
-          <div className="advantages-card-text">
+          <div id='hww' className="advantages-card-text">
           <br/>At Softkitect we strive for a culture that encourages a positive and healthier work environment and provides team members with a sense of confidence, security, and optimism. Over time we have learned that improved work stability translates into reduced attrition, so you don´t have to worry about unexpected situations.
           </div>
         </div>
