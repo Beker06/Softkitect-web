@@ -33,7 +33,7 @@ export default async function handler(req, res) {
 
             
             const info = await transporter.sendMail({
-                from: email,
+                from:'bosc790@gmail.com',
                 to: "bosc790@gmail.com",
                 subject: "MESSAGE FROM SOFTKITEC WEBPAGE",
                 text: `Name: ${name}${" "}${lastname}\nPhone number: ${number}\nE-mail: ${email}\nCity: ${city}\nMessage: ${message}`,
