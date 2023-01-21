@@ -69,7 +69,7 @@ export default function Layout({ title, children }) {
       </Head>
       <div className="layout-container">
         <Navbar/>
-        {/* <MessengerP/> */}
+        <MessengerP/>
         <main className="layout-content">{children}</main>
         <Footer/>
       </div>
