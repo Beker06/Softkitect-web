@@ -33,7 +33,7 @@
     padding: 0;
 }
 .home-banner-text2{
-    font-size: 180px;
+    font-size: 220px;
     text-align: left;
     margin-top: -40px;
     margin-left: 25px;
@@ -43,7 +43,7 @@
 .home-banner-text3{
     font-size: 139px;
     text-align: left;
-    margin-top: -40px;
+    margin-top: -45px;
     margin-left: 30px;
     color: #FCD900;
     text-transform: uppercase;
@@ -100,15 +100,15 @@
         margin-left: 68px;
     }
     .home-banner-text1{
-        font-size: 116px;
+        font-size: 108px;
     }
     .home-banner-text2{
-        font-size: 152px;
+        font-size: 180px;
         margin-top: -35px;
         margin-left: 22px;
     }
     .home-banner-text3{
-        font-size: 116px;
+        font-size: 108px;
         margin-top: -30px;
         margin-left: 26px;
     }
@@ -127,7 +127,7 @@
     }
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1280px) {
     .home-banner-row{
         margin-top: 485px;
         margin-bottom: 64px;
@@ -182,7 +182,7 @@
         font-size: 54px;
     }
     .home-banner-text2{
-        font-size: 75px;
+        font-size: 88px;
         margin-top: -16px;
         margin-left: 9px;
     }
@@ -226,7 +226,7 @@
         font-size: 40px;
     }
     .home-banner-text2{
-        font-size: 56px;
+        font-size: 66px;
         margin-top: -10px;
         margin-left: 5px;
     }
@@ -278,7 +278,7 @@
         font-size: 40px;
     }
     .home-banner-text2{
-        font-size: 56px;
+        font-size: 66px;
         margin-top: -6px;
         margin-left: 3.5px;
     }
@@ -326,7 +326,7 @@
         font-size: 30px;
     }
     .home-banner-text2{
-        font-size: 40px;
+        font-size: 49px;
         margin-top: -6px;
         margin-left: 3.5px;
     }
